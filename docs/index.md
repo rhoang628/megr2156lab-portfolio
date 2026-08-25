@@ -2,7 +2,7 @@
 
 > **Engineering is the art of making decisions you can defend.**
 
-[Hero Image Placeholder: Professional Headshot]
+<img src="IMG_3763.JPEG" alt="Randy Hoang Headshot" width="520" height="465">
 
 ## Randy Hoang
 **Mechanical Engineering Student**
@@ -15,7 +15,7 @@ This site is the working record of my design decisions across MEGR 2156. Every e
 
 ## About Me
 
-<img src="IMG_3763.JPEG" alt="Randy Hoang Headshot" width="520" height="465"> <img src="0420.gif" alt="ENGR 1201 Project" width="827.67" height="465">
+<img src="0420.gif" alt="ENGR 1201 Project" width="827.67" height="465">
 
 I have always been fascinated by how things work and how far they can take us. Growing up with a father who is a mechanical engineer, I was surrounded by the language of design and building from day one. That early foundation naturally evolved into a lifelong love for space exploration and the work being done at NASA.
 
