@@ -6,3 +6,7 @@ One rule to design for additive manufacturing is to make sure the self-supportin
 ## Individual Research: FDM  
 One FDM specific consideration is warping. Heat can melt the plastic and shrinks when cooled. To prevent this we can keep the base warm. (Google AI Overview)
 
+## Group Share Out  
+1. DfAM - Using the necessary amount of filament. This optimizes cost on filament and time.
+2. FDM - Making sure the holes are normal to the x-y axis. This is is to consider that the 3d Printer is following a circular path. 
+
