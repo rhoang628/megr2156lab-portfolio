@@ -8,4 +8,4 @@ I approach engineering as both a rigorous technical discipline and a creative ou
 
 My journey through design projects and hands-on lab work has taught me how to bridge the gap between raw engineering and clean execution. I love diving into complex hardware builds just as much as I love communicating the story behind the final product.
 
-Download My [Resume](resume.pdf)
+Download My [Resume](Randy Hoang ENGR Resume.pdf)
