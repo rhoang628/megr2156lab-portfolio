@@ -134,12 +134,12 @@ Below are pictures of the finished product.
 </div>
 
 ### Lessons Learned
-In this lab, I learned about the important rules about 3D printing. I learned how to 3D print for the first time, and I hope to do a lot more in the future. I learned a lot more about HTML codes, such as how to make images enlarge when clicking on them for this portfolio. I hope to be present the next time my print is finished so that I can handle my own print with caution. The time spent from downloading to finishing the 3D print was under an hour. I would like to thank Austin Williams for collecting the teams download and printing it for us, and Maxwell McFarlane for doing his best to take our print off the bed. Credit to Atiba Johnson for documenting the post-printing process. 
+In this lab, I learned about the important rules of 3D printing, how to 3D print for the first time, and I hope to do a lot more in the future. I learned a lot more about HTML codes, such as how to make images enlarge when clicking on them for this portfolio. Lastly, I learned how to use the Rapid Lab. I hope to be present the next time my print is finished so that I can handle my own print with caution. The time spent from downloading to finishing the 3D print was under an hour. I would like to thank Austin Williams for collecting the team's download and printing it for us, and Maxwell McFarlane for doing his best to take our print off the bed. Credit to Atiba Johnson for documenting the post-printing process. 
 
 ## Resources
 All printwork was used with:  
 
-<div class="circle-bullets">
+<div class="circle-bullets">  
 
 * <a href="https://www.prusa3d.com/p/prusaslicer/" target="_blank">PrusaSlicer</a>  
 * <a href="https://www.printables.com/" target="_blank">Printables.com</a>  
