@@ -43,9 +43,11 @@ I then clicked "Slice Now" and kept the settings as-is and exported the print as
 </div>  
 
 ### Print
-As it was time to begin printing, the estimated time for printing was roughly 40 minutes due to printing with 3 other classmates at the same time. Dr. Fagan came to our group to analyze the reason for the long finish time and discovered that one of our prints was just too detailed.  
+As it was time to begin printing, the estimated time for printing was roughly 40 minutes due to printing with 3 other classmates at the same time. Dr. Fagan came to our group to analyze the reason for the long finish time and discovered that one of our prints was very detailed.  
 
-
+<div align="center">
+  <img src="IMG_9070.HEIC" alt="Print Progress" width="302.4" height="403.2">   
+</div>  
 
 ### Lessons Learned
 
