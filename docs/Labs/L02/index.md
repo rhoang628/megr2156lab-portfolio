@@ -13,7 +13,7 @@ One FDM-specific consideration is warping. Heat can melt the plastic and cause i
 2. FDM - Making sure the holes are normal to the x-y axis. This is to consider that the 3d Printer is following a circular path. 
 
 ## Print something Small  
-
+#### (Clicking on the images will enlarge them)
 ### Download and Preprocessor 
 I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head</a>.  
 
