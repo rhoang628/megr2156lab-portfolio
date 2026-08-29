@@ -30,3 +30,4 @@ nav:
 plugins:
   - search
   - glightbox
+  - mkdocs-video
