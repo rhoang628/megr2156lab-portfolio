@@ -46,7 +46,7 @@ I then clicked "Slice Now" and kept the settings as-is and exported the print as
 As it was time to begin printing, the estimated time for printing was roughly 40 minutes due to printing with 3 other classmates at the same time. Dr. Fagan came to our group to analyze the reason for the long finish time and discovered that one of our prints was very detailed.  
 
 <div align="center">
-  <img src="IMG_9070.jpg" alt="Print Progress" width="302.4" height="403.2">   
+  <img src="IMG_9070.jpg" alt="Print Progress" width="302.4" height="403.2"> <img src="IMG_9071.jpg" alt="Print Progress" width="302.4" height="403.2"> 
 </div>  
 
 After printing, a classmate began to take our prints off the bed. Unfortunately, the way he handled our prints had damaged mine. Below is a video provided by another classmate documenting the process.
@@ -56,6 +56,12 @@ After printing, a classmate began to take our prints off the bed. Unfortunately,
     <source src="Print Removal Process.mp4" type="video/mp4">
   </video>
 </div>  
-  
+
+Below are pictures of the finished product.
+
+<div align="center">
+  <img src="IMG_9089.jpg" alt="Print Progress" width="302.4" height="403.2"> <img src="IMG_9095.jpg" alt="Print Progress" width="302.4" height="403.2"> 
+</div>  
+
 ### Lessons Learned
 
