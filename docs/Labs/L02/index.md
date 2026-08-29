@@ -33,13 +33,13 @@ The size of the keychain was perfect for the maximum area and height that was gi
 Below are the print settings.
 
 <div align="center">
-  <img src="Screenshot_6" alt="Prusa Print Settings for Minecraft Pickaxe" width="184.8" height="418.88">
+  <img src="Screenshot_6.jpg" alt="Prusa Print Settings for Minecraft Pickaxe" width="184.8" height="418.88">
 </div>  
 
 I then clicked "Slice Now" and kept the settings as-is and exported the print as G-Code to the flash drive for printing.  
 
 <div align="center">
-  <img src="Screenshot_12" alt="Sliced Info" width="184.8" height="418.88"> <img src="Screenshot_1" alt="Features" width="419" height="196"> 
+  <img src="Screenshot_12.jpg" alt="Sliced Info" width="184.8" height="418.88"> <img src="Screenshot_1.jpg" alt="Features" width="419" height="196"> 
 </div>  
 
 ### Print
