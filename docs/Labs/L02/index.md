@@ -51,7 +51,9 @@ As it was time to begin printing, the estimated time for printing was roughly 40
 
 After printing, a classmate began to take our prints off the bed. Unfortunately, the way he handled our prints had damaged mine. Below is a video provided by another classmate documenting the process.
 
-::: video [Print Removal Process] (videos/Print Removal Process.mp4)
+<video width="100%" controls>
+  <source src="Print Removal Process.mp4" type="video/mp4">
+</video>
 
 ### Lessons Learned
 
