@@ -22,7 +22,7 @@ Minecraft is one of my favorite games ever that I have played since I was a chil
 The size of the keychain was perfect for the maximum area and height that was given, so there was no resizing needed. The area of the print is 1.5658 x 1.5658 x 0.1811.  
 
 <div align="center">
-  <img src="Screenshot_10.jpg" alt="3D Model of Minecraft Pickaxe">
+  <img src="Screenshot_10.jpg" alt="3D Model of Minecraft Pickaxe" width="385.2" height="261.6">
 </div>
 
 
