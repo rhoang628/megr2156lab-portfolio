@@ -15,7 +15,7 @@ One FDM-specific consideration is warping. Heat can melt the plastic and cause i
 ## Print something Small  
 <small>***(Clicking on the images will enlarge them)***</small>
 ### Download and Preprocessor 
-I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head</a>.  
+I downloaded the *Minecraft_pickaxe_PERSONAL_USE_ONLY.stl* from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head</a>.  
 
 Minecraft is one of my favorite games ever that I have played since I was a child. I chose the pickaxe because I would mine for a lot of materials and make cool redstone contraptions in the game. So, I decided to make a keychain of it to travel with me every day.    
 
