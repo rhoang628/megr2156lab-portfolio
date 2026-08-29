@@ -43,6 +43,7 @@ I then clicked "Slice Now" and kept the settings as-is and exported the print as
 </div>  
 
 ### Print
+As it was time to begin printing, the estimated time for printing was roughly 40 minutes due to printing with 3 other classmates at the same time. Dr. Fagan came to our group to analyze the reason for the long finish time and discovered that one of our prints was just too detailed.  
 
 
 
