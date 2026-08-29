@@ -39,7 +39,7 @@ Below are the print settings.
 I then clicked "Slice Now" and kept the settings as-is and exported the print as G-Code to the flash drive for printing.  
 
 <div align="center">
-  <img src="Screenshot_12.jpg" alt="Sliced Info" width="184.8" height="418.88"> <img src="Screenshot_1.jpg" alt="Features" width="419" height="196"> 
+  <img src="Screenshot_12.jpg" alt="Sliced Info" width="419" height="196"> <img src="Screenshot_1.jpg" alt="Features" width="558.96" height="353.43"> 
 </div>  
 
 ### Print
