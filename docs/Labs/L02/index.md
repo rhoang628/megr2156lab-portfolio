@@ -15,7 +15,7 @@ One FDM specific consideration is warping. Heat can melt the plastic and shrinks
 ## Print something Small  
 
 ### Download and Preprocessor 
-I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="[Randy Hoang ENGR Resume.pdf](https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head)" target="_blank">[https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head]</a> 
+I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">[https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head]</a>
 
 ### Print
 
