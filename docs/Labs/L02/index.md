@@ -29,6 +29,7 @@ The size of the keychain was perfect for the maximum area and height that was gi
   <img src="Screenshot_11.jpg" alt="Minecraft Pickaxe on Prusa" width="385.2" height="239.97">
 </div>  
 
+
 Below are the print settings.
 
 <div align="center">
