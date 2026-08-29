@@ -139,11 +139,14 @@ In this lab, I learned about the important rules of 3D printing, how to 3D print
 ## Resources
 All printwork was used with:  
 
-<div class="circle-bullets">
-
-* <a href="https://www.prusa3d.com/p/prusaslicer/" target="_blank">PrusaSlicer</a>
-* <a href="https://www.printables.com/" target="_blank">Printables.com</a>
-* <a href="https://www.prusa3d.com/product/prusa-core-one-kit/" target="_blank">Prusa CORE One Printer</a>
-
-</div>
-
+<ul style="list-style-type: circle !important; padding-left: 20px;">
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    <a href="https://www.prusa3d.com/p/prusaslicer/" target="_blank">PrusaSlicer</a>
+  </li>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    <a href="https://printables.com" target="_blank">Printables.com</a>
+  </li>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    <a href="https://www.prusa3d.com/product/prusa-core-one-kit/" target="_blank">Prusa CORE One Printer</a>
+  </li>
+</ul>
