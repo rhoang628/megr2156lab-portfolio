@@ -15,7 +15,7 @@ One FDM-specific consideration is warping. Heat can melt the plastic and cause i
 ## Print something Small  
 
 ### Download and Preprocessor 
-I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head</a>  
+I downloaded the Minecraft_pickaxe_PERSONAL_USE_ONLY.stl from <a href="https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head" target="_blank">https://www.printables.com/model/1520127-minecraft-keychains-sword-pickaxe-creeper-head</a>.  
 
 Minecraft is one of my favorite games ever that I have played since I was a child. I chose the pickaxe because I would mine for a lot of materials and make cool redstone contraptions in the game. So, I decided to make a keychain of it to travel with me every day.    
 
@@ -26,10 +26,14 @@ Minecraft is one of my favorite games ever that I have played since I was a chil
 The size of the keychain was perfect for the maximum area and height that was given, so there was no resizing needed. The area of the print is 1.5658 x 1.5658 x 0.1811.
 
 <div align="center">
-  <img src="Screenshot_11.jpg" alt="Minecraft Pickaxe on Prusa" width="385.2" height="239.97">
+  <img src="Screenshot_11.jpg" alt="Minecraft Pickaxe on Prusa" width="184.8" height="418.88">
 </div>  
 
+Below are the print settings.
 
+<div align="center">
+  <img src="Screenshot_6" alt="Prusa Print Settings for Minecraft Pickaxe" width="385.2" height="239.97">
+</div>  
 
 ### Print
 
