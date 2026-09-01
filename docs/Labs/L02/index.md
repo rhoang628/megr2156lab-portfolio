@@ -149,4 +149,7 @@ All printwork was used with:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     <a href="https://www.prusa3d.com/product/prusa-core-one-kit/" target="_blank">Prusa CORE One Printer</a>
   </li>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    <a href="https://uncc.instructure.com/eportfolios/2988/Assignments/Make_Something_Small" target="_blank">Portfolio Example</a>
+  </li>
 </ul>
