@@ -136,7 +136,14 @@ Below are pictures of the finished product.
 ### Lessons Learned
 In this lab, I learned about the important rules of 3D printing, how to 3D print for the first time, and I hope to do a lot more in the future. I learned a lot more about HTML codes, such as how to make images enlarge when clicking on them for this portfolio. Lastly, I learned how to use the Rapid Lab. I hope to be present the next time my print is finished so that I can handle my own print with caution. The time spent from downloading to finishing the 3D print was under an hour. I would like to thank Austin Williams for collecting the team's download and printing it for us, and Maxwell McFarlane for doing his best to take our print off the bed. Credit to Atiba Johnson for documenting the post-printing process. 
 
-## Resources
+## Resources  
+
+<ul style="list-style-type: circle !important; padding-left: 20px;">
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    <a href="https://uncc.instructure.com/eportfolios/2988/Assignments/Make_Something_Small" target="_blank">Portfolio Example</a>
+  </li>
+</ul>  
+
 All printwork was used with:  
 
 <ul style="list-style-type: circle !important; padding-left: 20px;">
@@ -148,8 +155,5 @@ All printwork was used with:
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     <a href="https://www.prusa3d.com/product/prusa-core-one-kit/" target="_blank">Prusa CORE One Printer</a>
-  </li>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    <a href="https://uncc.instructure.com/eportfolios/2988/Assignments/Make_Something_Small" target="_blank">Portfolio Example</a>
   </li>
 </ul>
