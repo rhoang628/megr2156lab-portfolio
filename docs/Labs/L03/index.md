@@ -42,7 +42,7 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="prusa_settings.jpg" alt="PrusaSlicer Settings" width="450">
+    <img src="Screenshot_38.jpg" alt="PrusaSlicer Settings" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       PrusaSlicer Settings and Estimated Time
     </figcaption>
@@ -50,7 +50,19 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
 </div>
 
 <h2>Print</h2>
-<p>We printed this at the UNCC Print Farm using PLA. Since we printed as a group, the total time was about 40 minutes.</p>
+<p>We printed this at the Rapid Lab using PETG. Since we printed as a group of 3, the total time was about 40 minutes.</p>  
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
+    <video width="100%" controls>
+      <source src="0907.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
+      3D Printing Process
+    </figcaption>
+  </figure>
+</div>
 
 <p><strong>Stipulation Checklist:</strong></p>
 <ul>
@@ -63,7 +75,7 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="finished_print.jpg" alt="Final 3D Printed Fidget Toy" width="350">
+    <img src="IMG_9921.jpg" alt="Final 3D Printed Fidget Toy" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Final 3D Printed Fidget Toy (Fused Gears)
     </figcaption>
@@ -80,7 +92,7 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
 <p>You can see these concepts in real products, like a heavy-duty power drill housing. The wall thickness and infill strategy decide how drop-resistant it is. If the walls are too thin or the infill is weak, dropping the drill could shatter the case and expose you to the motor or live wires.</p>
 
 <h2>Resources</h2>
-<p>All design and printwork was used with:</p>
+<p>All design and printwork was done with:</p>
 
 <ul style="list-style-type: circle !important; padding-left: 20px;">
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
