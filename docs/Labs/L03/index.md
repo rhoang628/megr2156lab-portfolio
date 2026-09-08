@@ -102,7 +102,7 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
     <a href="https://www.prusa3d.com/p/prusaslicer/" target="_blank">PrusaSlicer</a>
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    UNCC Print Farm (FDM Printers)
+    Rapid Lab
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     Dr. Fagan (Troubleshooting assistance)
