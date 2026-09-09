@@ -224,7 +224,7 @@
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_67.jpg" alt="Pin Constraint Gear 2" width="350">
+    <img src="Screenshot_70.jpg" alt="Pin Constraint Gear 2" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Second Gear Pinned to Post
     </figcaption>
