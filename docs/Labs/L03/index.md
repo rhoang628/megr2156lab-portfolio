@@ -1,10 +1,12 @@
-<h1>Lab #3 &ndash; Design Something Small</h1>
+# Lab #3 – Design Something Small
 
-<h2>Design and Modeling Steps</h2>
-<p>For this lab, I wanted to design a print-in-place fidget toy using PTC Creo. The idea was to have two interlocking gears inside an outer shell, so you could spin them with your thumb. To meet the lab constraints, I kept the whole thing super small: exactly 1.0" x 0.5" x 0.25". Here is exactly how I built it step-by-step.</p>
+<small>***(Clicking on the images will enlarge them)***</small>
 
-<h3>1. Modeling the Gear</h3>
-<p>I started with the gear. First, I sketched a hollow circle on the top plane with an inner diameter of 0.4" and an outer diameter of 0.45". Putting it on the top plane made it way easier to translate later during assembly. I extruded it symmetrically by 0.13".</p>
+## Design and Modeling Steps
+For this lab, I wanted to design a print-in-place fidget toy using PTC Creo. The idea was to have two interlocking gears inside an outer shell, so you could spin them with your thumb. To meet the lab constraints, I kept the whole thing super small: exactly 1.0" x 0.5" x 0.25". Here is exactly how I built it step-by-step.
+
+### 1. Modeling the Gear
+I started with the gear. First, I sketched a hollow circle on the top plane with an inner diameter of 0.4" and an outer diameter of 0.45". Putting it on the top plane made it way easier to translate later during assembly. I extruded it symmetrically by 0.13".
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -21,7 +23,7 @@
   </figure>
 </div>
 
-<p>Next, I created another sketch on the top plane using the inner diameter as a reference and extruded it by 0.065".</p>
+Next, I created another sketch on the top plane using the inner diameter as a reference and extruded it by 0.065".
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -38,7 +40,7 @@
   </figure>
 </div>
 
-<p>For the gear teeth, I kind of eyeballed a custom profile sketch. Once I had one tooth looking right, I made it a local group and used a circular pattern to duplicate it to 24 teeth total.</p>
+For the gear teeth, I kind of eyeballed a custom profile sketch. Once I had one tooth looking right, I made it a local group and used a circular pattern to duplicate it to 24 teeth total.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -55,7 +57,7 @@
   </figure>
 </div>
 
-<p>To finish the gear, I cut a 0.10" hole straight through the center and chamfered the edges of the hole so it would spin smoothly on the shell's post later.</p>
+To finish the gear, I cut a 0.10" hole straight through the center and chamfered the edges of the hole so it would spin smoothly on the shell's post later.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -72,8 +74,8 @@
   </figure>
 </div>
 
-<h3>2. Modeling the Shell Base</h3>
-<p>I created a brand new part file for the outer shell. I sketched the main rectangular footprint and extruded it 0.25" high.</p>
+### 2. Modeling the Shell Base
+I created a brand new part file for the outer shell. I sketched the main rectangular footprint and extruded it 0.25" high.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -90,7 +92,7 @@
   </figure>
 </div>
 
-<p>To make room for the gears, I sketched on the side face of the block and did an extruded cut to hollow out the middle section.</p>
+To make room for the gears, I sketched on the side face of the block and did an extruded cut to hollow out the middle section.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -107,7 +109,7 @@
   </figure>
 </div>
 
-<p>I needed a way to actually touch the gears with my thumb, so I cut a 0.3" x 0.15" rectangular window through both the top and bottom of the base.</p>
+I needed a way to actually touch the gears with my thumb, so I cut a 0.3" x 0.15" rectangular window through both the top and bottom of the base.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -124,7 +126,7 @@
   </figure>
 </div>
 
-<p>To give it a cleaner look, I added rounds (fillets) to the inside corners of those rectangular windows, and then did the same to the outer edges of the main base block.</p>
+To give it a cleaner look, I added rounds (fillets) to the inside corners of those rectangular windows, and then did the same to the outer edges of the main base block.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -141,7 +143,7 @@
   </figure>
 </div>
 
-<p>Next, I had to create the internal posts for the gears to sit on. I added an extra datum plane running the long way down the middle of the base, and placed an axis at the exact center of the internal circular edge.</p>
+Next, I had to create the internal posts for the gears to sit on. I added an extra datum plane running the long way down the middle of the base, and placed an axis at the exact center of the internal circular edge.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -158,7 +160,7 @@
   </figure>
 </div>
 
-<p>Using that axis, I did a revolve feature to build the post holding the gear. I repeated this exact same revolve process for the other side of the shell to create the second post. Finally, I chamfered the tips of those posts to match the angle of the gear holes.</p>
+Using that axis, I did a revolve feature to build the post holding the gear. I repeated this exact same revolve process for the other side of the shell to create the second post. Finally, I chamfered the tips of those posts to match the angle of the gear holes.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -175,7 +177,7 @@
   </figure>
 </div>
 
-<p>I then repeated this exact same process for the second post on the other side of the shell, creating the sketch and revolving it around the second axis. Finally, I chamfered the post edges to match the gear hole angle.</p>
+I then repeated this exact same process for the second post on the other side of the shell, creating the sketch and revolving it around the second axis. Finally, I chamfered the post edges to match the gear hole angle.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -192,7 +194,7 @@
   </figure>
 </div>
 
-<p>Lastly, I chamfered the edges of those revolved posts so they would match the angle of the gear holes and allow the gears to sit smoothly.</p>
+Lastly, I chamfered the edges of those revolved posts so they would match the angle of the gear holes and allow the gears to sit smoothly.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -201,9 +203,10 @@
       First Post Chamfer
     </figcaption>
   </figure>
+</div>
 
-<h3>3. Assembly</h3>
-<p>With both parts done, I opened a new <code>.asm</code> assembly file. I dragged the shell base in first and set its constraint to "Default" so it wouldn't float around.</p>
+### 3. Assembly
+With both parts done, I opened a new `.asm` assembly file. I dragged the shell base in first and set its constraint to "Default" so it wouldn't float around.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -214,7 +217,7 @@
   </figure>
 </div>
 
-<p>Then I brought in the first gear. Instead of a rigid constraint, I switched the connection type to "Pin" and locked it onto the first post inside the shell. I brought in the second gear and pinned it to the other post.</p>
+Then I brought in the first gear. Instead of a rigid constraint, I switched the connection type to "Pin" and locked it onto the first post inside the shell. I brought in the second gear and pinned it to the other post.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -240,7 +243,7 @@
   </figure>
 </div>
 
-<p>As a final test, I ran a Mechanism Analysis in Creo to see if the gears would actually interact and spin properly. It worked perfectly!</p>
+As a final test, I ran a Mechanism Analysis in Creo to see if the gears would actually interact and spin properly. It worked perfectly!
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 60%; vertical-align: top;">
@@ -254,29 +257,25 @@
   </figure>
 </div>
 
-<h2>Research</h2>
-<p>Besides the Honeycomb and Gyroid patterns we talked about in class, here are three other infill types and what they're used for:</p>
+## Research
+Besides the Honeycomb and Gyroid patterns we talked about in class, here are three other infill types and what they're used for:
 
-<ul>
-  <li><strong>Cubic:</strong> This stacks cubes at a 45-degree angle inside your print. It's really good if your mechanical part needs to be strong in all three directions (X, Y, and Z).</li>
-  <li><strong>Grid (or Triangles):</strong> This is basically a 2D network. It's strong across the print bed (the X and Y axes) but not as strong vertically. It's used a lot for flat, weight-bearing surfaces.</li>
-  <li><strong>Lightning:</strong> This one basically just builds support structures right under the top layers. It saves a ton of filament and print time, but it offers almost no mechanical strength. It's strictly for display models.</li>
-</ul>
+* **Cubic:** This stacks cubes at a 45-degree angle inside your print. It's really good if your mechanical part needs to be strong in all three directions (X, Y, and Z).
+* **Grid (or Triangles):** This is basically a 2D network. It's strong across the print bed (the X and Y axes) but not as strong vertically. It's used a lot for flat, weight-bearing surfaces.
+* **Lightning:** This one basically just builds support structures right under the top layers. It saves a ton of filament and print time, but it offers almost no mechanical strength. It's strictly for display models.
 
-<p><strong>How does percentage infill affect mechanical properties?</strong><br>
-More infill means a stronger, heavier, and stiffer part. However, there's a limit. Going past 50% infill usually just wastes material and time without adding much extra strength. A 100% infill is almost never worth it for a standard part.</p>
+**How does percentage infill affect mechanical properties?**
+More infill means a stronger, heavier, and stiffer part. However, there's a limit. Going past 50% infill usually just wastes material and time without adding much extra strength. A 100% infill is almost never worth it for a standard part.
 
-<p><strong>How do different infill patterns affect mechanical properties?</strong><br>
-The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) are great for side-to-side strength but buckle easily under vertical pressure. 3D patterns (like Cubic) spread the load out so the part can take stress from pretty much any direction without breaking.</p>
+**How do different infill patterns affect mechanical properties?**
+The pattern decides *where* the part is strong. 2D patterns (like Grid) are great for side-to-side strength but buckle easily under vertical pressure. 3D patterns (like Cubic) spread the load out so the part can take stress from pretty much any direction without breaking.
 
-<h2>Preprocessor and Printing</h2>
-<ul>
-  <li><strong>Build Orientation:</strong> I laid the model completely flat on its widest side. This gave the gear profiles the best resolution and kept them from snapping off, which probably would have happened if I printed it standing up.</li>
-  <li><strong>Scale:</strong> I didn't need to scale it in the slicer since I designed it strictly to the lab dimensions in Creo.</li>
-  <li><strong>Infill:</strong> We went with <strong>20% infill</strong>. This was plenty of structure for the shell and guaranteed the print would finish well under the 1.5-hour limit.</li>
-  <li><strong>Wall Thickness:</strong> I bumped up the wall thickness to reinforce the outer shell. <strong>Why use different wall thicknesses?</strong> Adding more outer walls (perimeters) actually does way more for a part's bending strength and impact resistance than just cranking up the infill percentage.</li>
-  <li><strong>Mistakes:</strong> I accidentally added supports in PrusaSlicer to keep the gears from sticking to the shell, completely forgetting the "no overhangs" rule for this lab. Next time, I need to design chamfers so it prints cleanly without supports.</li>
-</ul>
+## Preprocessor and Printing
+* **Build Orientation:** I laid the model completely flat on its widest side. This gave the gear profiles the best resolution and kept them from snapping off, which probably would have happened if I printed it standing up.
+* **Scale:** I didn't need to scale it in the slicer since I designed it strictly to the lab dimensions in Creo.
+* **Infill:** We went with **20% infill**. This was plenty of structure for the shell and guaranteed the print would finish well under the 1.5-hour limit.
+* **Wall Thickness:** I bumped up the wall thickness to reinforce the outer shell. **Why use different wall thicknesses?** Adding more outer walls (perimeters) actually does way more for a part's bending strength and impact resistance than just cranking up the infill percentage.
+* **Mistakes:** I accidentally added supports in PrusaSlicer to keep the gears from sticking to the shell, completely forgetting the "no overhangs" rule for this lab. Next time, I need to design chamfers so it prints cleanly without supports.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -287,8 +286,8 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
   </figure>
 </div>
 
-<h2>Print</h2>
-<p>We printed this at the Rapid Lab using PETG. Since we printed as a group of 3, the total time was about 40 minutes.</p>  
+## Print
+We printed this at the Rapid Lab using PETG. Since we printed as a group of 3, the total time was about 40 minutes.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
@@ -302,14 +301,12 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
   </figure>
 </div>
 
-<p><strong>Stipulation Checklist:</strong></p>
-<ul>
-  <li><strong>&lt; 0.5 inch tall:</strong> Pass (0.25 inches)</li>
-  <li><strong>No overhangs:</strong> Fail (I had to use supports)</li>
-  <li><strong>Print in PLA/PETG:</strong> Pass</li>
-  <li><strong>&lt; 1.5 x 1.5 inches:</strong> Pass (1.0 x 0.5 inches)</li>
-  <li><strong>Time &lt; 1.5 hours:</strong> Pass (40 minutes)</li>
-</ul>
+**Stipulation Checklist:**
+* **< 0.5 inch tall:** Pass (0.25 inches)
+* **No overhangs:** Fail (I had to use supports)
+* **Print in PLA/PETG:** Pass
+* **< 1.5 x 1.5 inches:** Pass (1.0 x 0.5 inches)
+* **Time < 1.5 hours:** Pass (40 minutes)
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -320,17 +317,18 @@ The pattern decides <em>where</em> the part is strong. 2D patterns (like Grid) a
   </figure>
 </div>
 
-<h2>Lessons Learned</h2>
-<p>This print was definitely a learning experience. Right at the start, the filament jammed and wouldn't feed properly. We had to get Dr. Fagan to come help us fix the extruder and restart the print completely.</p>
+## Lessons Learned
+This print was definitely a learning experience. Right at the start, the filament jammed and wouldn't feed properly. We had to get Dr. Fagan to come help us fix the extruder and restart the print completely.
 
-<p>In the end, my fidget toy didn't work. The gears completely fused to the outer shell. At first, I thought maybe the 20% infill caused it to mess up, but it was really a tolerance issue. Because the toy was so tiny, I didn't leave enough of a gap in Creo between the gears and the wall. When the hot plastic extruded, it expanded and welded everything together. I probably needed to leave at least a 0.2mm to 0.3mm clearance gap.</p>
+In the end, my fidget toy didn't work. The gears completely fused to the outer shell. At first, I thought maybe the 20% infill caused it to mess up, but it was really a tolerance issue. Because the toy was so tiny, I didn't leave enough of a gap in Creo between the gears and the wall. When the hot plastic extruded, it expanded and welded everything together. I probably needed to leave at least a 0.2mm to 0.3mm clearance gap.
 
-<p>If I made a mistake like this on a real safety part (like a load-bearing pulley or hinge), the friction would ruin the joint and cause it to fail immediately. The filament jam was an obvious mistake that I caught right away by watching the first layer, but the tight tolerances were a hidden flaw. Next time, my process needs to include using the measure tool in Creo to check the exact clearances before I export the STL.</p>
+If I made a mistake like this on a real safety part (like a load-bearing pulley or hinge), the friction would ruin the joint and cause it to fail immediately. The filament jam was an obvious mistake that I caught right away by watching the first layer, but the tight tolerances were a hidden flaw. Next time, my process needs to include using the measure tool in Creo to check the exact clearances before I export the STL.
 
-<p>You can see these concepts in real products, like a heavy-duty power drill housing. The wall thickness and infill strategy decide how drop-resistant it is. If the walls are too thin or the infill is weak, dropping the drill could shatter the case and expose you to the motor or live wires.</p>
+You can see these concepts in real products, like a heavy-duty power drill housing. The wall thickness and infill strategy decide how drop-resistant it is. If the walls are too thin or the infill is weak, dropping the drill could shatter the case and expose you to the motor or live wires.
 
-<h2>Resources</h2>
-<p>All design and printwork was done with:</p>
+## Resources
+
+All design and printwork was done with:
 
 <ul style="list-style-type: circle !important; padding-left: 20px;">
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
