@@ -95,7 +95,7 @@ When gaps exceed the printer's bridging limits, you must either change the print
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="prusaslicer_timelapse.gif" alt="PrusaSlicer Timelapse" width="450">
+    <img src="prusaslicer_timelapse_thing.gif" alt="PrusaSlicer Timelapse" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       PrusaSlicer Toolpath Timelapse
     </figcaption>
