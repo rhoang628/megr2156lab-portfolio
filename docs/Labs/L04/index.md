@@ -79,7 +79,7 @@ Before printing unsupported spans, I researched the mechanical and thermal dynam
 Cooling is the single most important factor. The printer must stretch a line of molten plastic across an empty void. Without immediate, directional cooling from the fan, the plastic's thermal mass will cause it to droop.
 
 **How do you fix spans that are too long to bridge?**
-When gaps exceed the printer's bridging limits (usually past 30–50 mm depending on the material), you must either change the print orientation to place the gap against the build plate, or enable sacrificial support structures in the slicer to hold the plastic up.
+When gaps exceed the printer's bridging limits, you must either change the print orientation to place the gap against the build plate, or enable sacrificial support structures in the slicer to hold the plastic up.
 
 ## Preprocessor and Printing
 * **Build Orientation:** I laid the model flat on its base (XY plane). This was the only way to accurately test bridging, forcing the printer to span the horizontal gaps over open air.
@@ -116,12 +116,6 @@ We printed this at the Rapid Lab using the Prusa Core One. The total print time 
     </figcaption>
   </figure>
 </div>
-
-**Stipulation Checklist:**
-* **Test varying span lengths:** Pass (10 to 50 mm)
-* **No overhang supports used:** Pass
-* **Print in PLA/PETG:** Pass (PETG)
-* **Time < 1.5 hours:** Pass (36 minutes)
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
