@@ -1,4 +1,4 @@
-# Lab Assignment – FDM Bridging Tolerance Benchmark
+# Lab #4: Benchmark a Parameter
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
