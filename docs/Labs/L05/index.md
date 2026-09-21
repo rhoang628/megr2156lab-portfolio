@@ -121,7 +121,7 @@ For the receptacle, I sketched the outer block profile and the internal tunnel c
 
 ### Research and Preprocessor
 * **Build Orientation:** The parts were printed completely flat on their sides.
-* **Material Selection:** PETG was chosen for the physical prototype due to its superior elasticity compared to PLA.
+* **Material Selection:** PLA was chosen for the physical prototype.
 * **Supports:** No supports were needed for this print. The bridging capabilities of the printer handled the top wall of the tunnel perfectly, preventing any sagging and preserving the engineered 0.010-inch clearance.
 * **Slicer Settings:** I used PrusaSlicer's **Speed** profile with a **Grid** infill pattern to minimize print time while retaining structural rigidity. 
 
@@ -144,7 +144,7 @@ I printed the two parts at the Rapid Lab using the Prusa Core One. The total pri
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      3D Printing the Snap-Fit Assembly in PETG
+      3D Printing the Snap-Fit Assembly in PLA
     </figcaption>
   </figure>
 </div>
@@ -177,9 +177,9 @@ I printed the two parts at the Rapid Lab using the Prusa Core One. The total pri
 </div>
 
 ### Lessons Learned
-The test showed that the parts fit together perfectly. The 14-degree ramp allowed the plug to compress smoothly, and once the 0.20-inch triangle cleared the 0.78-inch depth of the box, it snapped right into place.
+The test showed that the parts fit together smoothly. The 14-degree ramp allowed the plug to compress during insertion, and once the 0.20-inch triangle cleared the 0.78-inch depth of the box, it snapped into place.
 
-However, mechanical limitations quickly became apparent. While it snaps, the plug can be pulled out with only a little bit of force. It is currently only viable for lightweight situations. This lack of retention is due to a combination of the PETG's high flexibility, the thin 0.10-inch beam thickness, and the FDM process slightly rounding off the sharp 90-degree catch at the back of the locking triangle. 
+However, mechanical limitations became apparent under load. While it snaps, the plug can be pulled out with minimal force. It is currently only viable for lightweight situations. This lack of retention is due to a combination of the thin 0.10-inch beam thickness and the FDM process slightly rounding off the sharp 90-degree catch at the back of the locking triangle, which prevents a perfectly flush lock against the receptacle wall. 
 
 To iterate and improve this design for heavier axial loads (5–10 lbf), I would need to adjust my parametric variables to increase `BEAM_H` (thickening the flexure) or modify the receptacle wall to trap the locking lip more aggressively.
 
