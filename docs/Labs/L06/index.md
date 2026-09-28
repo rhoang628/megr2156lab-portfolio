@@ -3,7 +3,7 @@
 <small>***(Clicking on the images will enlarge them)***</small>
 
 ## Part 1: Artifact Measurement and Parameters
-For this lab, the objective was to design and 3D-print a parametric baseplate that snap-fits onto an existing artifact (the SparkFun RedBoard Artemis). The design utilizes a LEGO-style cantilever snap-fit peg mechanism, created in PTC Creo.
+For this lab, the objective was to design and 3D-print a parametric baseplate that snap-fits onto an existing artifact (the SparkFun RedBoard Artemis). The design utilizes a cantilever snap-fit peg mechanism, created in PTC Creo.
 
 ### Measurements and Hole Center Calculations
 Measurements were taken using a dial caliper. Because caliper jaws rest on the edges of small PCB holes, all hole locations were measured from the hole edge rather than the center, requiring offset calculations for the CAD sketch. 
