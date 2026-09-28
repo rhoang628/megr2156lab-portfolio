@@ -168,13 +168,13 @@ Finally, I patterned the Extrude-Cut feature to the other three pegs, completing
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="prusaslicer_settings_1.jpg" alt="PrusaSlicer Settings Panel 1" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      PrusaSlicer Structural Profile Settings
+      Infill Configuration
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="prusaslicer_settings_2.jpg" alt="PrusaSlicer Settings Panel 2" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Infill and Perimeter Configuration
+      Perimeter Configuration
     </figcaption>
   </figure>
 </div>
