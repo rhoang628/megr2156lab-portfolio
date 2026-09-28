@@ -53,37 +53,69 @@ The design was driven by the following parameters to ensure easy adjustments and
 The design was modeled in PTC Creo entirely using parameters and relations. 
 
 ### 1. Baseplate and Cylinder Shafts
-I started by sketching a 2.705" x 2.328" rectangle and extruding it to `Base_Thickness`. Next, I sketched four circles at the calculated center points of the board's holes. The circles were constrained to `Peg_Shaft_Dia` and extruded upward to `Shaft_Height`.
+I started by defining the required parameters in Creo's tools menu so the dimensions could be easily updated later. Then, I sketched a 2.705" x 2.328" rectangle and extruded it to `Base_Thickness`.
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="parameters.jpg" alt="Creo Parameters Menu" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Defining Parameters in Creo
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="base_sketch.jpg" alt="Baseplate Sketch" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Sketch of the Baseplate
+    </figcaption>
+  </figure>
+</div>
+
+Next, I sketched four circles at the calculated center points of the board's holes. The circles were constrained to `Peg_Shaft_Dia` using relations and extruded upward to `Shaft_Height`.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="base_extrude.jpg" alt="Baseplate Extrude" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Baseplate Sketch and Extrusion
+      Extrusion of the Baseplate
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="cylinder_extrude.jpg" alt="Cylinder Shafts" width="350">
+    <img src="cylinder_sketch.jpg" alt="Cylinder Sketch" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Extrusion of the Four Peg Shafts
+      Sketch of the Four Peg Shafts
     </figcaption>
   </figure>
 </div>
 
 ### 2. Datum Plane and Truncated Cone Revolve
-To model the locking lip, I created a new Datum Plane perfectly intersecting the center axis of the first cylinder. I sketched half the profile of a truncated cone. **Note on workaround:** The Revolve tool required a space between the sketch profile and the center axis to generate. To fix this, I offset the inner edge of my sketch by 0.01" from the axis and subtracted 0.01" from my profile widths to keep the outer engineered tolerances identical. I then revolved the sketch 360 degrees.
+To model the locking lip, I created a new Datum Plane perfectly intersecting the center axis of the first cylinder. I then sketched half the profile of a truncated cone. **Note on workaround:** The Revolve tool required a space between the sketch profile and the center axis to generate. To fix this, I offset the inner edge of my sketch by 0.01" from the axis and subtracted 0.01" from my profile widths to keep the outer engineered tolerances identical. I then revolved the sketch 360 degrees.
 
 <div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="cylinder_extrude.jpg" alt="Cylinder Extrude" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Extrusion of the Peg Shafts
+    </figcaption>
+  </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="datum_plane.jpg" alt="Datum Plane Setup" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Custom Datum Plane for Revolve
     </figcaption>
   </figure>
+</div>
+
+<div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="revolve_profile.jpg" alt="Revolve Sketch Profile" width="350">
+    <img src="revolve_sketch.jpg" alt="Revolve Sketch Profile" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Truncated Cone Profile (with 0.01" gap)
+      Truncated Cone Sketch (with 0.01" gap)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="pattern_cone.jpg" alt="Patterning the Cone" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Revolving and Patterning the Locking Lip
     </figcaption>
   </figure>
 </div>
@@ -93,9 +125,9 @@ Instead of repeating the revolve, I used the Pattern tool to duplicate the trunc
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="pattern_cone.jpg" alt="Patterning the Cone" width="350">
+    <img src="slit_sketch.jpg" alt="Slit Sketch" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Patterning the Locking Lip
+      Sketch of the 0.065" Wide Slit
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
