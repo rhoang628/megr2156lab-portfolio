@@ -255,4 +255,4 @@ All design and print work was done with:
   </li>
 </ul>
 
-Total time from start to finish: ~90 minutes (15 min measurements, 45 min CAD modeling, 30 min slicing and printing).
+Total time from start to finish: 5 hours.
