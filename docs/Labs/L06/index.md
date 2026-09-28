@@ -166,9 +166,24 @@ Finally, I patterned the Extrude-Cut feature to the other three pegs, completing
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="prusaslicer_settings.jpg" alt="PrusaSlicer Settings" width="450">
+    <img src="prusaslicer_settings_1.jpg" alt="PrusaSlicer Settings Panel 1" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       PrusaSlicer Structural Profile Settings
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="prusaslicer_settings_2.jpg" alt="PrusaSlicer Settings Panel 2" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Infill and Perimeter Configuration
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="prusaslicer_sliced.jpg" alt="Sliced Preview" width="500">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Toolpath Preview Verifying the Slit Clearance
     </figcaption>
   </figure>
 </div>
