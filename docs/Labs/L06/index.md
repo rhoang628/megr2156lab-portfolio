@@ -8,6 +8,24 @@ For this lab, the objective was to design and 3D-print a parametric baseplate th
 ### Measurements and Hole Center Calculations
 Measurements were taken using a dial caliper. Because caliper jaws rest on the edges of small PCB holes, all hole locations were measured from the hole edge rather than the center, requiring offset calculations for the CAD sketch. 
 
+<div align="center">
+  <img src="measure_1.jpg" width="180" style="margin: 4px;">
+  <img src="measure_2.jpg" width="180" style="margin: 4px;">
+  <img src="measure_3.jpg" width="180" style="margin: 4px;">
+  <img src="measure_4.jpg" width="180" style="margin: 4px;">
+  <img src="measure_5.jpg" width="180" style="margin: 4px;">
+  <img src="measure_6.jpg" width="180" style="margin: 4px;">
+  <img src="measure_7.jpg" width="180" style="margin: 4px;">
+  <img src="measure_8.jpg" width="180" style="margin: 4px;">
+  <img src="measure_9.jpg" width="180" style="margin: 4px;">
+  <img src="measure_10.jpg" width="180" style="margin: 4px;">
+  <img src="measure_11.jpg" width="180" style="margin: 4px;">
+  <br>
+  <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px; margin-bottom: 15px;">
+    <i>Gallery: 11-part photo documentation of measuring the SparkFun RedBoard Artemis mounting holes and board dimensions.</i>
+  </figcaption>
+</div>
+
 * **Board Dimensions:** 2.705" x 2.328"
 * **Mounting Hole Diameter:** ~0.123"
 * **Edge Offset (Radius):** 0.0615"
