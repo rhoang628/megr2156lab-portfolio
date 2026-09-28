@@ -161,7 +161,7 @@ Finally, I patterned the Extrude-Cut feature to the other three pegs, completing
 ### Research and Preprocessor
 * **Build Orientation:** The baseplate was printed completely flat on the bed. This is the only logical orientation to ensure X/Y dimensional accuracy for the peg spacing and to allow the Z-axis layers to build vertically up the shafts.
 * **Material Selection:** PETG was chosen for the physical prototype.
-* **Supports:** No supports were needed. Even with the increased `Peg_Lip_Rad`, the overhang is small enough that the printer easily handles it without sagging.
+* **Supports:** Supports were used because of its geometry.
 * **Slicer Settings:** I used PrusaSlicer's **Structural** print profile with 15% gyroid infill. The Structural setting was specifically chosen to maximize layer adhesion—this is critical because the cantilever pegs are printed vertically, meaning the bending force during snap-fit insertion pushes directly against the layer lines. 
 
 <div align="center">
