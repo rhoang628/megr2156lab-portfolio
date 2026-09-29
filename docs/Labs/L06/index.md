@@ -207,7 +207,7 @@ I printed the baseplate at the Rapid Lab using the Prusa CORE One. The bounding 
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="print_disconnected.JPEG" alt="Baseplate and Artemis Disconnected" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Printed Baseplate and Artemis Board
+      Printed Baseplate
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
