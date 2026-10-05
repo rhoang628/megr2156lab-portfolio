@@ -270,7 +270,7 @@ To resolve this, we returned to PTC Creo and added a small 0.2 mm radial clearan
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <img src="assembly_irl.jpg" alt="Fully Assembled Four-Bar Linkage IRL" width="100%">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      Fully Assembled Four-Bar Linkage Mechanism (IRL)
+      Fully Assembled Four-Bar Linkage Mechanism
     </figcaption>
   </figure>
 </div>
@@ -282,7 +282,7 @@ To resolve this, we returned to PTC Creo and added a small 0.2 mm radial clearan
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      Operating the Fully Assembled Four-Bar Linkage IRL
+      Operating the Fully Assembled Four-Bar Linkage
     </figcaption>
   </figure>
 </div>
