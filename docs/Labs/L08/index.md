@@ -2,7 +2,7 @@
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
-## 1. Research on Design Thinking and Functional Enclosures (10%)
+## 1. Research on Design Thinking and Functional Enclosures
 Rooted in modern design-thinking principles, developing functional everyday items requires rigorous inquiry to bridge the gap between user habits and manufacturing realities.
 
 *   **Design Thinking Principle: Asking Smart Questions**
@@ -14,7 +14,7 @@ Rooted in modern design-thinking principles, developing functional everyday item
     *   **Industries:** Utilized in consumer goods, travel accessories, and field electronics packaging where custom-fit, durable protective cases are required on demand.
     *   **Citation:** ENGR 1202 / Mechanical Engineering Laboratory Design Standards (UNC Charlotte).
 
-## 2. Design and Engineering (45%)
+## 2. Design and Engineering
 **Purpose:** To design and 3D print a durable, hygienic, and compact travel case specifically sized to protect a standard toothbrush during transport. Building upon foundational concepts from previous coursework (such as the ENGR 1202 toiletry case project), the enclosure utilizes parametric CAD modeling in PTC Creo to create a secure two-piece sliding assembly with precision mating tolerances.
 
 **Component Breakdown (2 Total Printed Parts + Assembly)**
@@ -236,7 +236,7 @@ The top case was modeled with matching footprint dimensions ($R = 0.50\text{ in}
   </figure>
 </div>
 
-## 3. Slicing & 3D Print Preparation (35%)
+## 3. Slicing & 3D Print Preparation
 The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core One using Generic PETG filament. Both halves were oriented vertically along the Z-axis to align layer lines with longitudinal stress vectors and eliminate the need for supports.
 
 **Slicing Strategy & Parameters:**
@@ -276,7 +276,7 @@ The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core On
   </figure>
 </div>
 
-## 4. Lessons Learned (10%)
+## 4. Lessons Learned
 
 **Time Breakdown**
 
