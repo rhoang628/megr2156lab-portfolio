@@ -24,7 +24,7 @@ Rooted in modern design-thinking principles, developing functional everyday item
 | Bottom Case | Houses the main body of the toothbrush; features an engineered male mating lip and snap-fit shoulder. | PETG | 1 |
 | Top Case | Acts as the protective upper cover; features an internal female receiving channel and ergonomic outer radius. | PETG | 1 |
 
-### Detailed CAD Procedure (PTC Creo)
+### CAD Procedure
 
 **Phase 1: Bottom Case Modeling**
 The bottom case was initiated with a symmetric pill/slot profile ($R = 0.50\text{ in}$) and extruded to $4.00\text{ in}$ depth. A shell feature hollowed out the interior ($0.07\text{ in}$ wall thickness). A secondary base extrusion and shell refined the bottom geometry, followed by an offset sketch and remove-material extrude ($0.30\text{ in}$ depth) to establish the male mating lip. A $76^{\circ}$ lead-in chamfer, internal base fillets ($0.10\text{ in}$), and snap-fit shoulder cut ($0.23\text{ in}$ depth) completed the lower housing.
@@ -236,7 +236,7 @@ The top case was modeled with matching footprint dimensions ($R = 0.50\text{ in}
   </figure>
 </div>
 
-## 3. Slicing & 3D Print Preparation
+## 3. Slicing & 3D Printing
 The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core One using Generic PETG filament. Both halves were oriented vertically along the Z-axis to align layer lines with longitudinal stress vectors and eliminate the need for supports.
 
 **Slicing Strategy & Parameters:**
