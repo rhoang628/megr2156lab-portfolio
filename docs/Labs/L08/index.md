@@ -240,14 +240,32 @@ The top case was modeled with matching footprint dimensions ($R = 0.50\text{ in}
 The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core One using Generic PETG filament. Both halves were oriented vertically along the Z-axis to align layer lines with longitudinal stress vectors and eliminate the need for supports.
 
 **Slicing Strategy & Parameters:**
-*   **Machine:** Prusa Core One (HF0.4 nozzle)
-*   **Material:** Generic PETG (chosen for superior layer adhesion, toughness, and flexibility during snap-fit flexing)
-*   **Infill:** 15% Gyroid infill (chosen for isotropic strength and optimal strength-to-weight ratio)
-*   **Layer Height:** 0.20 mm (BALANCED profile)
-*   **Perimeters:** 3 walls matching the $0.07\text{ in}$ CAD wall thickness ($\approx 1.78\text{ mm}$)
-*   **Supports / Raft:** None (zero supports; direct adhesion on textured PEI sheet)
-*   **Total Print Time:** 1 hour 59 minutes (~2 hours)
-*   **Filament Used:** 93.53 g ($4.49\text{ in}^3$) for both parts combined
+<ul style="list-style-type: disc !important; padding-left: 20px;">
+  <li style="margin-bottom: 4px;">
+    <b>Machine:</b> Prusa Core One (HF0.4 nozzle)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Material:</b> Generic PETG (chosen for superior layer adhesion, toughness, and flexibility during snap-fit flexing)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Infill:</b> 15% Gyroid infill (chosen for isotropic strength and optimal strength-to-weight ratio)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Layer Height:</b> 0.20 mm (BALANCED profile)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Perimeters:</b> 3 walls matching the 0.07 in CAD wall thickness (~1.78 mm)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Supports / Raft:</b> None (zero supports; direct adhesion on textured PEI sheet)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Total Print Time:</b> 1 hour 59 minutes (~2 hours)
+  </li>
+  <li style="margin-bottom: 4px;">
+    <b>Filament Used:</b> 93.53 g (4.49 in³) for both parts combined
+  </li>
+</ul>
 
 <div align="center">
   <figure style="display: inline-block; margin: 5px; vertical-align: top;">
