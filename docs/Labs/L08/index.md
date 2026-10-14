@@ -325,7 +325,7 @@ All design and print work was completed using:
 
 <ul style="list-style-type: circle !important; padding-left: 20px;">
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    PTC Creo Parametric Educational Edition
+    PTC Creo Parametric
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     <a href="https://www.prusa3d.com/p/prusaslicer/" target="_blank">PrusaSlicer</a>
@@ -334,11 +334,18 @@ All design and print work was completed using:
     Prusa CORE One 3D Printer
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    Toptal Designers. "Great Questions Lead to Great Design: A Guide to the Design-thinking Process."
+    "Great Questions Lead to Great Design: A Guide to the Design-thinking Process."
   </li>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    ENGR 1202 Course Project Guidelines (UNC Charlotte)
-  </li>
+     <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 </ul>
 
 Total time from start to finish: ~7.5 hours (1.0 hour research/documentation, 3.0 hours CAD modeling, 0.5 hours slicing, 2.0 hours 3D printing in PETG, 1.0 hour assembly and mechanical testing).
