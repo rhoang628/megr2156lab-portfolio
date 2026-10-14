@@ -15,7 +15,7 @@ Rooted in modern design-thinking principles, developing functional everyday item
     *   **Citation:** ENGR 1202 / Mechanical Engineering Laboratory Design Standards (UNC Charlotte).
 
 ## 2. Design and Engineering
-**Purpose:** To design and 3D print a durable, hygienic, and compact travel case specifically sized to protect a standard toothbrush during transport. Building upon foundational concepts from previous coursework (such as the ENGR 1202 toiletry case project), the enclosure utilizes parametric CAD modeling in PTC Creo to create a secure two-piece sliding assembly with precision mating tolerances.
+**Purpose:** To design and 3D print a durable, hygienic, and compact travel case specifically sized to protect a standard toothbrush during transport. Originally conceptualized and designed when taking the ENGR 1202 class for the toiletry case project, this enclosure utilizes parametric CAD modeling in PTC Creo to create a secure two-piece sliding assembly with precision mating tolerances.
 
 **Component Breakdown (2 Total Printed Parts + Assembly)**
 
@@ -290,7 +290,7 @@ The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core On
 | **Total** | **6.5 hrs** | **7.5 hrs** |
 
 **Design & Manufacturing Reflection**
-Building upon foundational concepts from last year's ENGR 1202 toiletry case project, this lab emphasized parametric feature control and tolerance stack-up in PTC Creo. A key lesson learned during prototyping was that zero-tolerance mating leads to mechanical binding. Incorporating a deliberate clearance offset and a $76^{\circ}$ lead-in chamfer solved joint alignment and ensured smooth closure engagement. Furthermore, switching from brittle PLA to tough PETG proved essential for the snap-fit friction fit, allowing the enclosure to flex repeatedly without fatigue failure. Printing upright without supports eliminated post-processing cleanup and preserved pristine surface finishes.
+Originally conceptualized and designed during the ENGR 1202 class for the toiletry case project, this design emphasizes parametric feature control and tolerance stack-up in PTC Creo. A key lesson learned during prototyping was that zero-tolerance mating leads to mechanical binding. Incorporating a deliberate clearance offset and a $76^{\circ}$ lead-in chamfer solved joint alignment and ensured smooth closure engagement. Furthermore, switching from brittle PLA to tough PETG proved essential for the snap-fit friction fit, allowing the enclosure to flex repeatedly without fatigue failure. Printing upright without supports eliminated post-processing cleanup and preserved pristine surface finishes.
 
 <div align="center">
   <figure style="display: inline-block; margin: 5px; vertical-align: top;">
@@ -336,7 +336,10 @@ All design and print work was completed using:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     "Great Questions Lead to Great Design: A Guide to the Design-thinking Process."
   </li>
-     <script>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    ENGR 1202 Toiletry Case Project Guidelines (UNC Charlotte)
+  </li>
+  <script>
   MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']]
