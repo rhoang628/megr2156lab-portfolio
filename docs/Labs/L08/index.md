@@ -15,9 +15,9 @@ Rooted in modern design-thinking principles, developing functional everyday item
     *   **Citation:** ENGR 1202 / Mechanical Engineering Laboratory Design Standards (UNC Charlotte).
 
 ## 2. Design and Engineering
-**Purpose:** To design and 3D print a durable, hygienic, and compact travel case specifically sized to protect a standard toothbrush during transport. Originally conceptualized and designed when taking the ENGR 1202 class for the toiletry case project, this enclosure utilizes parametric CAD modeling in PTC Creo to create a secure two-piece sliding assembly with precision mating tolerances.
+**Purpose:** To design and 3D print a durable, hygienic, and compact travel case specifically sized to protect a standard toothbrush during transport. Originally conceptualized and designed when taking the ENGR 1202 class for the toiletry case project, this enclosure utilizes parametric CAD modeling in PTC Creo to create a secure two-piece sliding assembly with precision mating tolerances. The design worked successfully on the first try with zero revisions or modifications required.
 
-**Component Breakdown (2 Total Printed Parts + Assembly)**
+**Component Breakdown (2 Total Printed Parts)**
 
 | Component | Function within Assembly | Material | Qty |
 | :--- | :--- | :--- | :--- |
@@ -301,14 +301,14 @@ The STL files were processed in PrusaSlicer for manufacturing on a Prusa Core On
 | Task Phase | Expected Time | Actual Time |
 | :--- | :--- | :--- |
 | Research & Documentation | 1.0 hr | 1.0 hr |
-| PTC Creo Modeling | 2.5 hrs | 3.0 hrs |
+| PTC Creo Modeling | 2.5 hrs | 2.5 hrs |
 | PrusaSlicer Preparation | 0.5 hr | 0.5 hr |
 | 3D Printing | 2.0 hrs | 2.0 hrs |
-| Assembly & Mechanical Testing | 0.5 hr | 1.0 hr |
-| **Total** | **6.5 hrs** | **7.5 hrs** |
+| Mechanical Testing & Fit Check | 0.5 hr | 0.5 hr |
+| **Total** | **6.5 hrs** | **6.5 hrs** |
 
 **Design & Manufacturing Reflection**
-Originally conceptualized and designed during the ENGR 1202 class for the toiletry case project, this design emphasizes parametric feature control and tolerance stack-up in PTC Creo. A key lesson learned during prototyping was that zero-tolerance mating leads to mechanical binding. Incorporating a deliberate clearance offset and a $76^{\circ}$ lead-in chamfer solved joint alignment and ensured smooth closure engagement. Furthermore, switching from brittle PLA to tough PETG proved essential for the snap-fit friction fit, allowing the enclosure to flex repeatedly without fatigue failure. Printing upright without supports eliminated post-processing cleanup and preserved pristine surface finishes.
+Originally conceptualized and designed during the ENGR 1202 class for the toiletry case project, this design emphasizes parametric feature control and tolerance stack-up in PTC Creo. The initial design worked successfully on the first try with zero revisions or modifications required. Incorporating a deliberate clearance offset and a $76^{\circ}$ lead-in chamfer ensured smooth closure engagement, while switching from brittle PLA to tough PETG provided the necessary flexibility for the snap-fit friction fit without fatigue failure. Printing upright without supports eliminated post-processing cleanup. Because the design consists solely of two mating halves connecting and disconnecting, no post-print assembly was required.
 
 <div align="center">
   <figure style="display: inline-block; margin: 5px; vertical-align: top;">
@@ -354,6 +354,9 @@ All design and print work was completed using:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     "Great Questions Lead to Great Design: A Guide to the Design-thinking Process."
   </li>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    ENGR 1202 Toiletry Case Project Guidelines (UNC Charlotte)
+  </li>
   <script>
   MathJax = {
     tex: {
@@ -366,4 +369,4 @@ All design and print work was completed using:
 </script>
 </ul>
 
-Total time from start to finish: ~7.5 hours (1.0 hour research/documentation, 3.0 hours CAD modeling, 0.5 hours slicing, 2.0 hours 3D printing in PETG, 1.0 hour assembly and mechanical testing).
+Total time from start to finish: ~6.5 hours (1.0 hour research/documentation, 2.5 hours CAD modeling, 0.5 hours slicing, 2.0 hours 3D printing in PETG, 0.5 hours mechanical testing and fit check).
