@@ -332,7 +332,7 @@ Originally conceptualized and designed during the ENGR 1202 class for the toilet
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      Mechanical Opening & Closing Test (IRL)
+      Mechanical Opening & Closing Test
     </figcaption>
   </figure>
 </div>
