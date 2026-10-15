@@ -353,10 +353,6 @@ All design and print work was completed using:
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     "Great Questions Lead to Great Design: A Guide to the Design-thinking Process."
-  </li>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    ENGR 1202 Toiletry Case Project Guidelines (UNC Charlotte)
-  </li>
   <script>
   MathJax = {
     tex: {
