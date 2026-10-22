@@ -21,7 +21,7 @@ Minecraft is one of my favorite games ever that I have played since I was a chil
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_10.jpg" alt="3D Model of Minecraft Pickaxe" width="385.2" height="261.6">
+    <img src="./Screenshot_10.jpg" alt="3D Model of Minecraft Pickaxe" width="385.2" height="261.6">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       3D Model of Minecraft Pickaxe
     </figcaption>
