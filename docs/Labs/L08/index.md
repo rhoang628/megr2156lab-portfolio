@@ -4,7 +4,7 @@
 
 > **Note on Portfolio Media:** Due to a persistent glitch on GitHub that stopped loading images and videos across the entire portfolio repository, all media files have been bundled into a downloadable archive below for grading and review purposes.
 > 
-> [📦 **Download All Portfolio Images & Videos (ZIP)**](portfolio_media.zip)
+> [📦 **Download All Portfolio Images & Videos (ZIP)**](https://drive.google.com/file/d/1kdHEWxFiy458aasCLsPdH1mbQd_ODfAz/view?usp=sharing)
 
 ## 1. Research on Design Thinking and Functional Enclosures
 Rooted in modern design-thinking principles, developing functional everyday items requires rigorous inquiry to bridge the gap between user habits and manufacturing realities.
