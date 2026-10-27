@@ -7,10 +7,10 @@
 The first thing my partner and I did was decide the variables that we would need for our own parts—namely the thickness and kerf measurements.
 
 ### Material Thickness
-When beginning this part, my partner and I measured the wood given to us from three different points ($0.10\text{ in}$, $0.12\text{ in}$, $0.10\text{ in}$), getting an average value of **$0.1117\text{ in}$** for our piece of wood. This $0.1117\text{ in}$ value became our material thickness variable in the CAD parameters.
+When beginning this part, my partner and I measured the wood given to us from three different points ($0.110\text{ in}$, $0.112\text{ in}$, $0.113\text{ in}$), getting an average value of **$0.1117\text{ in}$** for our piece of wood. This $0.1117\text{ in}$ value became our material thickness variable in the CAD parameters.
 
 ### Kerf Measurement
-When putting a $12\text{ mm} \times 12\text{ mm}$ square into the laser cutter, we got a final kerf measurement of **$0.009\text{ in}$**, which was the difference in size from our CAD model to the physical laser-cut part ($0.004\text{ in}$ offset per side).
+When putting a $2\text{ in} \times 2\text{ in}$ square into the laser cutter, we got a final kerf measurement of **$0.009\text{ in}$**, which was the difference in size from our CAD model to the physical laser-cut part ($0.004\text{ in}$ offset per side).
 
 First, we added the $12\text{ mm} \times 12\text{ mm}$ square to SolidWorks:
 
