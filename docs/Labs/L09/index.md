@@ -12,7 +12,7 @@ When beginning this part, my partner and I measured the wood given to us from th
 ### Kerf Measurement
 When putting a $2\text{ in} \times 2\text{ in}$ square into the laser cutter, we got a final kerf measurement of **$0.009\text{ in}$**, which was the difference in size from our CAD model to the physical laser-cut part ($0.004\text{ in}$ offset per side).
 
-First, we added the $12\text{ mm} \times 12\text{ mm}$ square to SolidWorks:
+First, we added the $2\text{ in} \times 2\text{ in}$ square to SolidWorks:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
