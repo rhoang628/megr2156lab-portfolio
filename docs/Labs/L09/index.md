@@ -401,3 +401,14 @@ One mistake made was having to press out one of the laser-cut pieces from the sh
 2. **Taguchi's Quality Loss Function:** Taguchi's principle states that any deviation from the target value incurs a cost. For our gears, a deviation in tolerance causes wobbling or binding; in mass production, this causes premature wear, broken warranties, and safety concerns.
 3. **Real-World Kerf Application:** In laser-cut plywood shelving, failing to account for kerf causes joints to be either too loose to stay assembled or too tight to slide together without splitting the material.
 4. **Future Iteration Adjustments:** Given one additional cut, we would experiment with changing gear clearance to find the maximum clearance allowable while maintaining smooth meshing without slipping.
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
