@@ -207,10 +207,27 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 Using digital vernier calipers, key dimensions of the printed and post-cured features were recorded across multiple orientation points to evaluate compliance with the ANSI B4.1 RC 2 specification.
 
 ### Photo of Actual Printed Parts
-*(Insert photo of the final printed and assembled score keeper parts here)*
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="printed_parts_photo.jpg" alt="Showing actual printed parts" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Photo of the final printed and assembled score keeper parts
+    </figcaption>
+  </figure>
+</div>
 
 ### Video of Actual Printed Parts
-*(Insert video demonstrating physical assembly and smooth sliding motion of the printed parts here)*
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
+    <video width="100%" controls>
+      <source src="printed_parts_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
+      Video demonstrating physical assembly and smooth sliding motion of the printed parts
+    </figcaption>
+  </figure>
+</div>
 
 ### Caliper Measurement Summary
 
