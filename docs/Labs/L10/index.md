@@ -172,7 +172,7 @@ A timelapse video of the SLA print process running in the Formlabs chamber:
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      Timelapse of the score keeper parts being printed via SLA
+      Timelapse of the scorekeeper parts being printed
     </figcaption>
   </figure>
 </div>
@@ -211,7 +211,7 @@ Using digital vernier calipers, key dimensions of the printed and post-cured fea
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="printed_parts_photo.jpg" alt="Showing actual printed parts" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Photo of the final printed and assembled score keeper parts
+      Photo of the final printed scorekeeper parts
     </figcaption>
   </figure>
 </div>
@@ -224,7 +224,7 @@ Using digital vernier calipers, key dimensions of the printed and post-cured fea
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
-      Video demonstrating physical assembly and smooth sliding motion of the printed parts
+      Video demonstrating sliding motion of the printed parts
     </figcaption>
   </figure>
 </div>
