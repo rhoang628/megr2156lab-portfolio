@@ -258,8 +258,19 @@ A primary challenge was accounting for resin shrinkage across enclosed internal 
 Another key learning outcome was the necessity of adding internal fillets to the slider lips. Rounding these sharp interior transitions distributed flexural stress across the part during snap-assembly, allowing it to endure higher operational loads without cracking.
 
 ### Resources Used
-1. Formlabs Form 4 / Form 3+ SLA 3D Printer & Standard Photopolymer Resin
-2. Form Wash Station & UV Curing Chamber
-3. SolidWorks 2026 CAD Software
-4. Machinery’s Handbook (32nd Edition, ANSI B4.1 Standard)
-5. Digital Vernier Calipers
+1. Formlabs Form 4
+2. Wash Station & UV Curing Chamber
+3. SolidWorks
+4. Machinery’s Handbook
+5. Calipers
+
+ <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
