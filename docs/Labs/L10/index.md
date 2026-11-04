@@ -168,7 +168,7 @@ A timelapse video of the SLA print process running in the Formlabs chamber:
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls>
-      <source src="print_timelapse.mp4" type="video/mp4">
+      <source src="./print_timelapse.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
@@ -186,7 +186,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls>
-      <source src="curing.mp4" type="video/mp4">
+      <source src="./curing.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
@@ -220,7 +220,7 @@ Using digital vernier calipers, key dimensions of the printed and post-cured fea
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls>
-      <source src="printed_parts_video.mp4" type="video/mp4">
+      <source src="./printed_parts_video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
