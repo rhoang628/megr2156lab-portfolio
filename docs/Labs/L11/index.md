@@ -6,14 +6,14 @@
 
 Snap-fit joints rely on the elastic deflection of a cantilever beam to assemble components without fasteners or adhesives. During insertion, the cantilever arm deflects along an angled ramp until the locking hook reaches its retention window, snapping securely into place. 
 
-For our design, we developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside additional components. Using Formlabs Grey V5 Photopolymer Resin on the Form 4, we evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
+For my design, I developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside a plunger and tube mechanism. Using Formlabs Grey V5 Photopolymer Resin on the Form 4, I evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
 - **Cantilever Length ($L$):** $1.50\text{ inches}$
 - **Root Thickness ($t_{root}$):** $0.35\text{ inches}$
 - **Tip Thickness ($t_{tip}$):** $0.15\text{ inches}$
 - **Extrusion Width / Model Thickness ($b$):** $0.25\text{ inches}$
 - **Required Deflection ($\delta$):** $0.035\text{ inches}$ (Locking hook protrusion height / undercut depth)
 
-To ensure the plastic does not undergo permanent plastic deformation or fracture during actuation, we calculate the maximum outer fiber strain ($\epsilon$) at the fixed root of the cantilever beam:
+To ensure the plastic does not undergo permanent plastic deformation or fracture during actuation, I calculated the maximum outer fiber strain ($\epsilon$) at the fixed root of the cantilever beam:
 
 $$\epsilon = \frac{3 \cdot t_{root} \cdot \delta}{2 L^2} = \frac{3 \cdot (0.35\text{ in}) \cdot (0.35\text{ in})}{2 \cdot (1.50\text{ in})^2} \approx 0.00817\text{ (or } 0.82\%\text{)}$$
 
@@ -35,7 +35,7 @@ The design was modeled in SolidWorks utilizing master parametric equations and g
 </div>
 
 ### 1. Modeling the Male Plug (`male_snap`)
-We started by sketching the master profile of the male plug on the Front Plane, linking our dimensions directly to the global variables for length ($1.50\text{ in}$), root thickness taper, and locking hook geometry:
+I started by sketching the master profile of the male plug on the Front Plane, linking dimensions directly to the global variables for length ($1.50\text{ in}$), root thickness taper, and locking hook geometry:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -52,7 +52,7 @@ We started by sketching the master profile of the male plug on the Front Plane, 
   </figure>
 </div>
 
-Afterwards, we extruded the profile symmetrically (Mid Plane) to an overall model extrusion depth of **$0.25\text{ in}$** (`EXT_Depth`), incorporating a central slot cut to separate the dual independent flexing arms:
+Afterwards, I extruded the profile symmetrically (Mid Plane) to an overall model extrusion depth of **$0.25\text{ in}$** (`EXT_Depth`), incorporating a central slot cut to separate the dual independent flexing arms:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -70,7 +70,7 @@ Afterwards, we extruded the profile symmetrically (Mid Plane) to an overall mode
 </div>
 
 ### 2. Modeling the Female Socket (`female_snap`)
-To begin modeling Part B (the female receptacle housing), we sketched the outer boundary envelope ($1.50\text{ in}$ width $\times$ $2.20\text{ in}$ height) and cut the internal sliding cavity:
+To model Part B (the female receptacle housing), I sketched the outer boundary envelope ($1.50\text{ in}$ width $\times$ $2.20\text{ in}$ height) and cut the internal sliding cavity:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -87,7 +87,7 @@ To begin modeling Part B (the female receptacle housing), we sketched the outer 
   </figure>
 </div>
 
-Next, we added the lateral retention windows for the snap hooks and the rear strap slots, finishing the housing with smooth outer edge fillets:
+Next, I added the lateral retention windows for the snap hooks and the rear strap slots, finishing the housing with smooth outer edge fillets:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -105,7 +105,7 @@ Next, we added the lateral retention windows for the snap hooks and the rear str
 </div>
 
 ### 3. Assembly Validation (`snap_assembly`)
-We brought both parts into an assembly file and mated them to verify kinematics and alignment. Section views confirmed that the snap hooks clear the entry walls and seat flush against the retention shoulders without bottoming out:
+I brought both parts into an assembly file and mated them to verify kinematics and alignment. Section views confirmed that the snap hooks clear the entry walls and seat flush against the retention shoulders without bottoming out:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -120,13 +120,13 @@ We brought both parts into an assembly file and mated them to verify kinematics 
 
 ## Part 3: 3D Printing and Test
 
-Preprocessing and slice configuration were managed in **Formlabs PreForm** for high-precision SLA fabrication. In accordance with the course requirement that 2–3 student projects share a single build plate, our layout successfully combined our snap-fit components (`female_snap`, `male_snap`, `plunger`, and `tube`) alongside a friend's shared design on the same build platform:
+Preprocessing and slice configuration were managed in **Formlabs PreForm** for high-precision SLA fabrication. In accordance with the course requirement that 2–3 student projects share a single build plate, my build layout successfully ganged my complete multi-part project components (`female_snap`, `male_snap`, `plunger`, and `tube`) onto a shared build platform alongside other student projects:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <img src="Screenshot_12.jpg" alt="PreForm Slicing Setup" width="100%">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      PreForm layout showing shared multi-project arrangement, orientation tilt, 181 touchpoints, and total volume ($39.49\text{ mL}$)
+      PreForm layout showing shared build plate arrangement, orientation tilt, 181 touchpoints, and total volume ($39.49\text{ mL}$)
     </figcaption>
   </figure>
 </div>
@@ -138,7 +138,7 @@ Preprocessing and slice configuration were managed in **Formlabs PreForm** for h
 - **Build Orientation:** Tilted at approximately $35^\circ$ to minimize cross-sectional peel forces against the resin tank film and prevent stair-stepping artifacts.
 - **Support Settings:** 181 auto-generated touchpoints configured strictly away from functional snap hooks, sliding channels, and internal undercut surfaces.
 - **Estimated Print Time:** 1 hour 33 minutes across 676 total layers.
-- **Total Volume:** **$39.49\text{ mL}$** (Accommodating our multi-part assembly alongside our peer's shared project).
+- **Total Volume:** **$39.49\text{ mL}$** (Accommodating my complete multi-part project on the shared build plate).
 
 The video below demonstrates the 3D printing process in action on the Form 4 printer:
 
@@ -221,12 +221,12 @@ Upon manual assembly, the male plug slides into the female socket. The cantileve
 | :--- | :--- |
 | **2.0 Hours** | Cantilever beam research, strain calculations ($\epsilon \approx 0.82\%$), and parametric global variable setup ($L = 1.50\text{ in}$, $T_{root} = 0.35\text{ in}$). |
 | **3.0 Hours** | CAD modeling of `male_snap` and `female_snap` in SolidWorks, parametric profile constraints, root fillets, and assembly clearance validation. |
-| **3.0 Hours** | PreForm slicing layout, Formlabs Form 4 print execution ($39.49\text{ mL}$ volume including shared peer project), IPA washing, UV curing, digital caliper measurement, and final documentation. |
+| **3.0 Hours** | PreForm slicing layout, Formlabs Form 4 print execution ($39.49\text{ mL}$ volume across shared build plate), IPA washing, UV curing, digital caliper measurement, and final documentation. |
 
 ### Mistakes & Troubleshooting
 A key observation during physical testing was that the sliding and snapping action is noticeably tight, requiring some force to connect and disconnect. This occurs because Formlabs Grey V5 is a rigid engineering resin with a high modulus of elasticity and minimal natural give compared to flexible thermoplastics like polypropylene. 
 
-To improve future iterations and reduce insertion/removal force, we can increase the internal cavity clearance offset slightly (e.g., from $0.010\text{ in}$ to $0.012\text{ in}$ or $0.015\text{ in}$) and soften the locking shoulder angle to ease thumb-release pressure.
+To improve future iterations and reduce insertion/removal force, I can increase the internal cavity clearance offset slightly (e.g., from $0.010\text{ in}$ to $0.012\text{ in}$ or $0.015\text{ in}$) and soften the locking shoulder angle to ease thumb-release pressure.
 
 ### Resources Used
 1. SolidWorks
