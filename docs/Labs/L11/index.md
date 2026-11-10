@@ -174,15 +174,19 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 - **Curing:** Post-cured in the Form Cure chamber at $60^\circ\text{C}$ for 30 minutes to achieve fully cross-linked polymer chains and maximum flexural modulus.
 - **Surface Finish & Inspection:** Surfaces exhibited smooth, rigid finishes with zero perceptible warping across primary sliding channels.
 
-### Fit Test & Physical Verification
-Using digital vernier calipers, key dimensions of the printed and post-cured features were recorded across multiple orientation points to evaluate compliance with snap-fit behavior.
 
 ### Photo of Actual Printed Parts
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="printed_parts_photo.jpg" alt="Showing actual printed parts" width="350">
+    <img src="IMG_0730.jpg" alt="Printed Quick-Release Buckle Disconnected" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Photo of the final printed quick-release buckle parts (Disconnected and Connected)
+      Disconnected state: Printed male cantilever plug (`male_snap`) and female socket (`female_snap`)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="IMG_0732.jpg" alt="Printed Quick-Release Buckle Connected" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Connected state: Fully engaged quick-release buckle assembly showing retention hook alignment
     </figcaption>
   </figure>
 </div>
