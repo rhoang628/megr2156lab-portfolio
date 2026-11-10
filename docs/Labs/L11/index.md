@@ -144,7 +144,7 @@ The video below demonstrates the 3D printing process in action on the Form 4 pri
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
-    <video width="100%" controls>
+    <video width="100%" controls preload="metadata" playsinline>
       <source src="print_process_video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -159,7 +159,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
-    <video width="100%" controls>
+    <video width="100%" controls preload="metadata" playsinline>
       <source src="./curing.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -194,7 +194,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 ### Video of Actual Printed Parts
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
-    <video width="100%" controls>
+    <video width="100%" controls preload="metadata" playsinline>
       <source src="./printed_parts_video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
