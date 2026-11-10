@@ -169,7 +169,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
   </figure>
 </div>
 
-- **Washing:** Cleaned in Isopropyl Alcohol (IPA $> 99\%$) for 10 minutes in the Form Wash station to strip unpolymerized liquid resin from internal webbing slots and tight sliding clearances.
+- **Washing:** Cleaned in Isopropyl Alcohol (IPA $> 91\%$) for 5 minutes in the Form Wash station to strip unpolymerized liquid resin from internal webbing slots and tight sliding clearances.
 - **Support Removal:** Supports carefully snipped flush with diagonal cutters prior to UV curing to prevent localized stress marks on precision mating faces.
 - **Curing:** Post-cured in the Form Cure chamber at $60^\circ\text{C}$ for 30 minutes to achieve fully cross-linked polymer chains and maximum flexural modulus.
 - **Surface Finish & Inspection:** Surfaces exhibited smooth, rigid finishes with zero perceptible warping across primary sliding channels.
