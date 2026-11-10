@@ -6,7 +6,7 @@
 
 Snap-fit joints rely on the elastic deflection of a cantilever beam to assemble components without fasteners or adhesives. During insertion, the cantilever arm deflects along an angled ramp until the locking hook reaches its retention window, snapping securely into place. 
 
-For our design, we developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside a plunger and tube mechanism. Using Formlabs Grey V5 Photopolymer Resin on the Form 4, we evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
+For our design, we developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside additional components. Using Formlabs Grey V5 Photopolymer Resin on the Form 4, we evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
 - **Cantilever Length ($L$):** $1.50\text{ inches}$
 - **Root Thickness ($t_{root}$):** $0.35\text{ inches}$
 - **Tip Thickness ($t_{tip}$):** $0.15\text{ inches}$
@@ -120,13 +120,13 @@ We brought both parts into an assembly file and mated them to verify kinematics 
 
 ## Part 3: 3D Printing and Test
 
-Preprocessing and slice configuration were managed in **Formlabs PreForm** for high-precision SLA fabrication across all 4 integrated components (`female_snap`, `male_snap`, `plunger`, and `tube`):
+Preprocessing and slice configuration were managed in **Formlabs PreForm** for high-precision SLA fabrication. In accordance with the course requirement that 2–3 student projects share a single build plate, our layout successfully combined our snap-fit components (`female_snap`, `male_snap`, `plunger`, and `tube`) alongside a friend's shared design on the same build platform:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <img src="Screenshot_12.jpg" alt="PreForm Slicing Setup" width="100%">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      PreForm layout showing component arrangement, orientation tilt, 181 touchpoints, and total volume ($39.49\text{ mL}$)
+      PreForm layout showing shared multi-project arrangement, orientation tilt, 181 touchpoints, and total volume ($39.49\text{ mL}$)
     </figcaption>
   </figure>
 </div>
@@ -138,7 +138,7 @@ Preprocessing and slice configuration were managed in **Formlabs PreForm** for h
 - **Build Orientation:** Tilted at approximately $35^\circ$ to minimize cross-sectional peel forces against the resin tank film and prevent stair-stepping artifacts.
 - **Support Settings:** 181 auto-generated touchpoints configured strictly away from functional snap hooks, sliding channels, and internal undercut surfaces.
 - **Estimated Print Time:** 1 hour 33 minutes across 676 total layers.
-- **Total Volume:** **$39.49\text{ mL}$** (Accommodating all 4 multi-part assembly components).
+- **Total Volume:** **$39.49\text{ mL}$** (Accommodating our multi-part assembly alongside our peer's shared project).
 
 The video below demonstrates the 3D printing process in action on the Form 4 printer:
 
@@ -221,7 +221,7 @@ Upon manual assembly, the male plug slides into the female socket. The cantileve
 | :--- | :--- |
 | **2.0 Hours** | Cantilever beam research, strain calculations ($\epsilon \approx 0.82\%$), and parametric global variable setup ($L = 1.50\text{ in}$, $T_{root} = 0.35\text{ in}$). |
 | **3.0 Hours** | CAD modeling of `male_snap` and `female_snap` in SolidWorks, parametric profile constraints, root fillets, and assembly clearance validation. |
-| **3.0 Hours** | PreForm slicing layout, Formlabs Form 4 print execution ($39.49\text{ mL}$ volume), IPA washing, UV curing, digital caliper measurement, and final documentation. |
+| **3.0 Hours** | PreForm slicing layout, Formlabs Form 4 print execution ($39.49\text{ mL}$ volume including shared peer project), IPA washing, UV curing, digital caliper measurement, and final documentation. |
 
 ### Mistakes & Troubleshooting
 A key observation during physical testing was that the sliding and snapping action is noticeably tight, requiring some force to connect and disconnect. This occurs because Formlabs Grey V5 is a rigid engineering resin with a high modulus of elasticity and minimal natural give compared to flexible thermoplastics like polypropylene. 
