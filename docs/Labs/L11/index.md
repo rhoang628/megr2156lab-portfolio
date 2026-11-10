@@ -6,7 +6,7 @@
 
 Snap-fit joints rely on the elastic deflection of a cantilever beam to assemble components without fasteners or adhesives. During insertion, the cantilever arm deflects along an angled ramp until the locking hook reaches its retention window, snapping securely into place. 
 
-For my design, I developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside a plunger and tube mechanism. Using Formlabs Grey V5 Photopolymer Resin on the Form 4, I evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
+For my design, I developed a modular everyday-carry (EDC) quick-release strap buckle featuring a dual cantilever plug (`male_snap`) and a matching receptacle housing (`female_snap`), alongside a plunger and tube mechanism. Using Formlabs Grey V5 Resin on the Form 4, I evaluated structural feasibility using cantilever beam mechanics. The key design parameters include:
 - **Cantilever Length ($L$):** $1.50\text{ inches}$
 - **Root Thickness ($t_{root}$):** $0.35\text{ inches}$
 - **Tip Thickness ($t_{tip}$):** $0.15\text{ inches}$
