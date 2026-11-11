@@ -160,7 +160,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls preload="metadata" playsinline>
-      <source src="./curing.mp4" type="video/mp4">
+      <source src="curing.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
@@ -178,7 +178,7 @@ Post-processing involved washing, support removal, and UV thermal post-curing:
 ### Photo of Actual Printed Parts
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="IMG_0730.jpg" alt="Printed Quick-Release Buckle Disconnected" width="350">
+    <img src="./IMG_0730.jpg" alt="Printed Quick-Release Buckle Disconnected" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Disconnected state: Printed male cantilever plug (`male_snap`) and female socket (`female_snap`)
     </figcaption>
