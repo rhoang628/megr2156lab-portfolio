@@ -239,7 +239,7 @@ The snap-fit pins act as bearing surfaces and active springs. The infill was bum
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls>
-      <source src="./printing_process.mp4" type="video/mp4">
+      <source src="../printing_process.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
