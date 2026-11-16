@@ -175,7 +175,7 @@ The printer setup and active fabrication on the Form 4 are captured below:
 </div>
 
 ### Post-Processing (Washing & Curing)
-After printing, components underwent washing and UV thermal curing:
+After printing, components underwent washing and curing:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
