@@ -134,27 +134,46 @@ The fully mated assembly verifies coaxial alignment and running clearance:
 
 ## 3D Printing, Testing, and Video Presentation
 
+### 1. FDM Slicing & Parameters (`middle_layer`)
+Build preparation for the FDM middle guide ring was executed in **PrusaSlicer**:
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 60%; vertical-align: top;">
+    <img src="Screenshot_27.jpg" alt="PrusaSlicer FDM Layout" width="100%">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      PrusaSlicer layout for `middle_layer.STL` on the Prusa CORE One printer using Generic PETG ($0.15\text{ mm}$ Balanced profile, $25\%$ infill, and auto-generated supports consuming $33.81\text{ g}$ / $1\text{h }50\text{m}$ print time)
+    </figcaption>
+  </figure>
+</div>
+
+- **Printer:** Prusa CORE One (0.4 mm nozzle)
+- **Material:** Generic PETG
+- **Layer Height:** $0.15\text{ mm}$ BALANCED (modified)
+- **Infill:** $25\%$ Grid
+- **Supports:** For support enforcers only / Paint-on supports ($3.06\text{ g}$ support material)
+- **Total Estimated Print Time:** 1 hour 50 minutes ($33.81\text{ g}$ total filament usage)
+
+### 2. SLA Slicing & Parameters (Outer Caps)
 Build preparation for the SLA outer caps was handled in **Formlabs PreForm**, organizing the layout and supports on the Form 4 printer.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <img src="Screenshot_26.jpg" alt="PreForm Slicing Layout" width="100%">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      PreForm layout for SLA outer caps showing orientation, 582 touchpoints, and total volume ($51.46\text{ mL}$)
+      PreForm layout for SLA outer caps showing orientation, 582 touchpoints, and total volume ($52\text{ mL}$)
     </figcaption>
   </figure>
 </div>
 
-### PreForm Parameters
 - **Machine Name:** Formlabs Form 4 SLA Printer (`HallowedDodo`)
 - **Material:** Formlabs Grey V5 Resin
 - **Layer Height:** $0.100\text{ mm}$ ($100\text{ microns}$)
 - **Build Orientation:** Tilted at an optimized angle to minimize peel forces on the resin tank.
 - **Support Settings:** 582 auto-generated touchpoints placed away from threaded profiles.
-- **Total Volume:** **$51.46\text{ mL}$** (Exceeding the initial $1/4$ plate constraint to accommodate robust thread walls).
+- **Total Volume:** **$52\text{ mL}$** (Including necessary support structures, and exceeding the initial $1/4$ plate constraint to accommodate robust thread walls).
 
 ### Printing Process & Machine Setup
-The printer setup and active fabrication on the Form 4 are captured below:
+The printer setups and active fabrication are captured below:
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -165,7 +184,7 @@ The printer setup and active fabrication on the Form 4 are captured below:
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <video width="350" controls preload="metadata" playsinline>
-      <source src="sla_printing.mp4" type="video/mp4">
+      <source src="sla_printing.MOV" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
