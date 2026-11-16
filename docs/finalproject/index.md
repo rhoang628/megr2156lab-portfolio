@@ -253,9 +253,8 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 | **3.5 Hours** | PreForm layout, Form 4 SLA printing ($51.46\text{ mL}$), IPA wash, cure, FDM PETG printing, assembly testing, and parasitic torque troubleshooting. |
 
 ### Mistakes & Troubleshooting
-- **Parasitic Thread Rotation:** Cable snags initially caused threads to bind due to high sliding friction. Solved by introducing positive axial running clearance so the middle guide ring floats freely.
 - **Build Plate Constraint:** Exceeding the initial $1/4$ SLA plate constraint was necessary to provide adequate wall thickness around the threaded posts and prevent resin peel failures.
-
+- **Support Volume Consideration:** Accounting for the required auto-generated support structures brought total resin consumption to approximately $52\text{ mL}$, highlighting the importance of optimizing orientation to minimize unnecessary support mass.
 ### Resources Used
 1. SolidWorks
 2. Formlabs PreForm & Form 4 SLA Printer (Grey V5 Resin)
