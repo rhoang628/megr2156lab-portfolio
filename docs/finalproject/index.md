@@ -227,7 +227,7 @@ Initial testing and winding evaluation were recorded to verify smooth operation:
 Initial testing revealed that when a cable snagged during rapid pulls, frictional drag transmitted parasitic torque through the pinched PETG ring, inadvertently screwing or unscrewing the coaxial threads. 
 - **The Mechanical Fix:** Implemented an axial running clearance gap ($0.015\text{ in}$ to $0.025\text{ in}$) on the central bearing journal. When outer caps bottom out against each other rather than clamping the middle ring, it floats freely and spins independently.
 
-### 30-Second Video Presentation Script
+### 30-Second Video Presentation
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls preload="metadata" playsinline>
