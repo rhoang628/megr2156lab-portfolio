@@ -215,7 +215,7 @@ Initial testing and winding evaluation were recorded to verify smooth operation:
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls preload="metadata" playsinline>
-      <source src="wind_testing.MOV" type="video/mp4">
+      <source src="wind_testing.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
@@ -231,7 +231,7 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
     <video width="100%" controls preload="metadata" playsinline>
-      <source src="part1-video" type="video/mp4">
+      <source src="part1-video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
