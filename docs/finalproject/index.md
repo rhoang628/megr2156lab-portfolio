@@ -12,7 +12,7 @@ The Spiral Design Process is an iterative engineering framework divided into fou
 - **Risk Analysis:** Identifying potential failure modes—such as thread stripping, resin peel forces, structural brittleness, and parasitic torque transmission during cable pulls.
 - **Engineering (Prototyping & Modeling):** Executing parametric CAD models in SolidWorks, defining thread profiles (`1/2-13` UNC), and setting up slicing parameters in PreForm.
 - **Evaluation:** Testing physical prototypes, measuring dimensional accuracy with calipers, analyzing tribological performance, and refining tolerances.
-- *Application:* This iterative spiral guided the transition from initial concept sketches to the final multi-material prototype, allowing successive loops to resolve mechanical binding and thread slippage.
+- **Application:** This iterative spiral guided the transition from initial concept sketches to the final multi-material prototype, allowing successive loops to resolve mechanical binding and thread slippage.
 
 ### 2. FDM Anisotropy
 Fused Deposition Modeling (FDM) inherently produces anisotropic mechanical properties due to directional layer-by-layer extrusion. Interlayer bonding along the build ($Z$) axis is consistently weaker than intralayer tensile strength along the raster ($X-Y$) paths. 
@@ -35,7 +35,7 @@ Laser cutting removes material along the beam's focal path (the kerf width), whi
 ### Alternative Problem Definitions (3 Minimum)
 1. **Travel Cable Tangling:** Tangled charging and headphone cords in backpacks create daily frustration, knotting, and strain on internal conductor wires.
 2. **Hardware Organization:** Loose machine screws, nuts, and washers in mobile workshop bins mix together, causing time loss during assembly.
-3. **Drafting Tool Storage:** Loose scales, pencils, and erasers roll around engineering backpacks, leading to broken lead and damaged equipment.
+3. **Drafting Tool Storage:** Loose scales, pencils, and erasers roll around in backpacks, leading to broken lead and damaged equipment.
 
 ### Problem Selection & Justification
 **Selected Problem:** Problem #1 (Travel Cable Tangling). 
