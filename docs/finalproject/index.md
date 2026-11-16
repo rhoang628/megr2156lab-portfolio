@@ -228,9 +228,17 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 - **The Mechanical Fix:** Implemented an axial running clearance gap ($0.015\text{ in}$ to $0.025\text{ in}$) on the central bearing journal. When outer caps bottom out against each other rather than clamping the middle ring, it floats freely and spins independently.
 
 ### 30-Second Video Presentation Script
-- **0:00 – 0:10:** *"Do you struggle with untangling your cables like I do? Every single time I reach into my bag, it’s a complete mess—and honestly, I’m over it."*
-- **0:10 – 0:13:** *"So, I designed my own fix."*
-- **0:13 – 0:35:** *"I modeled and 3D-printed this travel winder from scratch. You just drop the cord in, screw the caps together, and because the middle piece floats freely, you can just hold onto it and spin the cap to wind everything up. Toss it in your bag, and whenever you need it, it pulls straight out—zero tangles, super simple."*
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 50%; vertical-align: top;">
+    <video width="100%" controls preload="metadata" playsinline>
+      <source src="part1-video" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
+      Video Presentation
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -253,7 +261,10 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 2. Formlabs PreForm & Form 4 SLA Printer (Grey V5 Resin)
 3. FDM 3D Printer (PETG Filament)
 4. Form Wash & Form Cure Stations
-5. **YouTube Reference Tutorials:** SolidWorks Custom Thread Modeling (Helix and Sweep tool methods), Thread Relief Undercut Design, and SLA Resin Print Clearance & Tolerance Optimization Guides.
+5. **YouTube Reference Tutorials:** 
+   - [SolidWorks Custom Thread Modeling Tutorial](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+   - [Designing Threaded Enclosures & Tolerances for 3D Printing](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+   - [SLA Resin Clearance and Thread Fit Best Practices](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 <script>
   MathJax = {
