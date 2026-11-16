@@ -261,10 +261,9 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 2. Formlabs PreForm & Form 4 SLA Printer (Grey V5 Resin)
 3. FDM 3D Printer (PETG Filament)
 4. Form Wash & Form Cure Stations
-5. **YouTube Reference Tutorials:** 
-   - [SolidWorks Custom Thread Modeling Tutorial](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-   - [Designing Threaded Enclosures & Tolerances for 3D Printing](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-   - [SLA Resin Clearance and Thread Fit Best Practices](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+5. YouTube Reference Tutorials:
+   - [How To 3D Print Perfect Threads: A Step By Step Guide](https://www.youtube.com/watch?v=JIMfW6bMgE0)
+   - [3D Printed USB Cable Reel](https://www.youtube.com/watch?v=_EzQU2ZlJFI)
 
 <script>
   MathJax = {
