@@ -34,7 +34,7 @@ Laser cutting removes material along the beam's focal path (the kerf width), whi
 
 ### Alternative Problem Definitions (3 Minimum)
 1. **Travel Cable Tangling:** Tangled charging and headphone cords in backpacks create daily frustration, knotting, and strain on internal conductor wires.
-2. **Hardware Organization:** Loose machine screws, nuts, and washers in mobile workshop bins mix together, causing time loss during assembly.
+2. **Hardware Organization:** Loose machine screws, nuts, and washers in mobile workshop bins mix, causing time loss during assembly.
 3. **Drafting Tool Storage:** Loose scales, pencils, and erasers roll around in backpacks, leading to broken lead and damaged equipment.
 
 ### Problem Selection & Justification
@@ -515,13 +515,13 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_base_combine_pip_step_23.jpg" alt="Base Combine Print-in-Place Step 23" width="320">
+    <img src="v2_cad_slot_feature_step_23.jpg" alt="Base Combine Print-in-Place Step 23" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Combining base components to establish the print-in-place fit
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_base_tolerances_step_24.jpg" alt="Base Print-in-Place Tolerances Step 24" width="320">
+    <img src="v2_cad_slot_feature_step_24.jpg" alt="Base Print-in-Place Tolerances Step 24" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Setting print-in-place fit tolerances on the base geometry
     </figcaption>
@@ -529,7 +529,7 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="v2_cad_slot_completed.jpg" alt="Completed Slot Model" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Completed `slot.SLDPRT` featuring contoured neck groove and dual curved routing channels
+      Completed `slot.SLDPRT` featuring a contoured neck groove and dual curved routing channels
     </figcaption>
   </figure>
 </div>
