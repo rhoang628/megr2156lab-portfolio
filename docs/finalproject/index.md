@@ -515,15 +515,15 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_slot_feature_step_23.jpg" alt="Slot Feature Step 23" width="320">
+    <img src="v2_cad_base_combine_pip_step_23.jpg" alt="Base Combine Print-in-Place Step 23" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Fillet and chamfer smoothing on the spool and winding geometry
+      Combining base components to establish the print-in-place fit
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_slot_feature_step_24.jpg" alt="Slot Feature Step 24" width="320">
+    <img src="v2_cad_base_tolerances_step_24.jpg" alt="Base Print-in-Place Tolerances Step 24" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Pre-completion hub and winder geometry check
+      Setting print-in-place fit tolerances on the base geometry
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -548,7 +548,7 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="v2_slicer_prusaslicer_body.jpg" alt="PrusaSlicer Body Layout" width="350">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      PrusaSlicer (`body.STL`) on Prusa CORE One (0.4 mm nozzle), Generic PETG, `0.15 mm` BALANCED (modified), `20%` infill, `32.64 g`, `1h 36m`
+      PrusaSlicer (`body.STL`) on Prusa CORE One HF0.4 nozzle (`0.4 mm`), Prusa PETG, `0.15mm BALANCED (modified)`, `20%` infill, `For support enforcers only`, `2.9995 in` × `2.9994 in` × `0.9999 in`, `34.53 g`, `1h53m` normal (`2h12m` stealth)[cite: 2, 3]
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -571,7 +571,7 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
       Your browser does not support the video tag.
     </video>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      FDM printing process on Prusa CORE One in Generic PETG
+      FDM printing process on Prusa CORE One in Prusa PETG (`1h53m` normal mode)[cite: 2, 3]
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -618,8 +618,8 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 ### One-Slide Presentation Summary
 - **Title:** Slim Multi-Material Travel Cable Winder (MEGR 2156/7 L3D)
 - **Problem & Motivation:** Tangled travel cords cause daily frustration and cable wear, while the initial prototype was bulky and limited to single-cable use.
-- **Peer Feedback & Refinement:** Maxwell and Atiba recommended improved crank/grip leverage, multi-cable capability, and less cramped ergonomics. The design was refined into a slimmer profile using an FDM PETG body/crank (`32.64 g`, `1h 36m`) paired with a compact Form 4 SLA Grey V5 threaded cap (`21.76 mL`, `~1 h 17 m`, `2.5000-12` threads, `120°` holes).
-- **Parametric & Manufacturing Highlights:** Controlled through SolidWorks parametric equations/variables (`"spool_diameter" = 1.50 in`), with resin shrinkage allowances and compact SLA build plate sizing (~1/4 Form 4 build plate).
+- **Peer Feedback & Refinement:** Maxwell and Atiba recommended improved crank/grip leverage, multi-cable capability, and less cramped ergonomics. The design was refined into a slimmer profile using an FDM PETG body/crank (`34.53 g`, `1h53m` normal mode) paired with a compact Form 4 SLA Grey V5 threaded cap (`21.76 mL`, `~1 h 17 m`, `2.5000-12` threads, `120°` holes)[cite: 2, 3].
+- **Parametric & Manufacturing Highlights:** Controlled through SolidWorks parametric equations/variables (`"spool_diameter" = 1.50 in`), with print-in-place tolerances, resin shrinkage allowances, and compact SLA build plate sizing (~1/4 Form 4 build plate).
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; width: 60%; vertical-align: top;">
