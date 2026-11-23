@@ -293,3 +293,224 @@ Initial testing revealed that when a cable snagged during rapid pulls, frictiona
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
+
+# Project Part 2: Enhance the Prototype
+
+<small>***(Clicking on the images will enlarge them)***</small>
+
+## 1. Peer Feedback & Individual Reflections
+
+During the Week 2 review, feedback was collected from two peers using the Sophomore Design L3D Peer Feedback Worksheets (`peer1.pdf` and `peer2.pdf`).
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <embed src="peer_feedback_maxwell.pdf" type="application/pdf" width="350" height="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Peer feedback worksheet completed by Maxwell McFarlane (<a href="peer_feedback_maxwell.pdf">peer_feedback_maxwell.pdf</a>)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <embed src="peer_feedback_atiba.pdf" type="application/pdf" width="350" height="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Peer feedback worksheet completed by Atiba Johnson (<a href="peer_feedback_atiba.pdf">peer_feedback_atiba.pdf</a>)
+    </figcaption>
+  </figure>
+</div>
+
+### Peer Feedback Summary
+- **Maxwell McFarlane (`peer_feedback_maxwell.pdf`):**
+  - *Clarity & Functionality:* Noted that the problem statement and proposed design solution are clear and functional, with minimal tolerance concerns.
+  - *Creativity & UX:* Commended the circular three-piece layout and recommended incorporating a handle—specifically a larger handle to improve turning leverage.
+  - *Iteration Focus:* Emphasized refining handle/grip ergonomics and accommodating varying cable slot thicknesses.
+- **Atiba Johnson (`peer_feedback_atiba.pdf`):**
+  - *Clarity & Functionality:* Confirmed that the cord-tangling problem and proposed solution align well with the selected manufacturing processes, identifying resin printing and handling as primary considerations.
+  - *Creativity & UX:* Identified the crank/winding mechanism as an intuitive and creative feature, suggesting improvements to reduce frame crowding and support multiple cables rather than a single cord at a time.
+  - *Iteration Focus:* Recommended multi-cable capability, faster cranking/winding mechanics, and improved overall ergonomics.
+
+### Individual Reflection
+Reviewing both worksheets confirmed that while the core cord-management problem and multi-material strategy were well received, the initial prototype remained overly bulky and limited in practical everyday use. Feedback from Maxwell and Atiba directly guided the v2 refinement direction: improving crank and grip accessibility, reducing overall profile bulk, and enabling practical multi-cable transport without jamming a single spool. Rather than forcing multiple cables into a single slot or stacking components vertically, pairing two slimmer FDM winder bodies back-to-back with a double-sided SLA threaded cap provides a clean, modular way to carry two cables in a compact travel form factor.
+
+---
+
+## 2. Refinement & Parametric Design
+
+### Design Enhancements from Feedback & Testing
+1. **Slimmer Overall Profile:** Dimensions and proportions from Part 1 were refined to produce a noticeably sleeker, more portable form factor while maintaining adequate structural wall thickness and thread engagement.
+2. **Print-in-Place FDM Body & Crank/Slot Architecture:** The FDM print-in-place architecture was centered around a compact body (`base.SLDPRT` / `body.STL`) and contoured slotted spool (`slot.SLDPRT`) incorporating curved routing channels and smooth edge chamfers/fillets to improve cable guidance and handling.
+3. **Double-Sided SLA Threaded Cap (`cap.SLDPRT` / `cap.form`):** The Formlabs Form 4 SLA component was kept compact (`21.76 mL` total volume compared to `52 mL` in Part 1), utilizing `2.5000-12` Inch Die thread geometry and three `Ø0.75 in` cutouts spaced at `120°` for component engagement and finger/grip access.
+4. **SLA Shrinkage & Form 4 Build Plate Compliance:** The SLA geometry was kept compact well within roughly one-quarter of the Form 4 build plate, sliced at a `0.100 mm` layer height in Grey V5 resin with thread offset and clearance allowances (`0.025 in` on `base` and `0.15 in` on `cap`) to compensate for resin shrinkage and support smooth assembly.
+
+### Parametric Design Feature
+SolidWorks **Equations and Global Variables** were applied across the parts and assembly (`base.SLDPRT`, `cap.SLDPRT`, `slot.SLDPRT`, and `Assem1.SLDASM`), centered on a global variable `"spool_diameter"` (`1.50 in`) to govern key sizing relationships and support rapid dimensional updates while maintaining a compact profile.
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 55%; vertical-align: top;">
+    <img src="v2_cad_spool_diameter_variable.jpg" alt="SolidWorks Global Variable Spool Diameter" width="100%">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      SolidWorks Equations and Global Variables (&quot;spool_diameter&quot; = 1.50in) driving a slimmer, compact winder profile
+    </figcaption>
+  </figure>
+</div>
+
+### CAD Modeling & Slicing Progression
+
+#### A. Base & Cap Modeling (`base.SLDPRT` & `cap.SLDPRT`)
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_initial_extrusion.jpg" alt="Base Initial Extrusion" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Initial extrusion in `base.SLDPRT` establishing the base profile
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_threads.jpg" alt="Base Thread Feature" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Thread1` in `base.SLDPRT` applying `2.5000-12` Inch Die threads (`0.025 in` offset, `0.25 in` blind)
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_completed.jpg" alt="Completed Base Model" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Completed `base.SLDPRT` feature tree and geometry with slotted wall and threaded collar
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_threads.jpg" alt="Cap Thread Feature" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Thread5` in `cap.SLDPRT` configured with `2.5000-12` Inch Die threads (`0.15 in` offset, `0.25 in` blind)
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_holes_120deg.jpg" alt="Cap 120 Degree Holes" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Cut-Extrude11` in `cap.SLDPRT` forming three `Ø0.75 in` cutouts spaced `120°` apart (`0.10 in` blind)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_completed.jpg" alt="Completed Cap Model" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Completed `cap.SLDPRT` feature tree and solid body
+    </figcaption>
+  </figure>
+</div>
+
+#### B. Slot Hub & Assembly (`slot.SLDPRT` & `Assem1.SLDASM`)
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_curved_cut.jpg" alt="Slot Hub Curved Cut" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Cut-Extrude1` in `slot.SLDPRT` (`0.70 in` blind) forming curved cable channels through the central hub
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_completed.jpg" alt="Completed Slot Model" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Completed `slot.SLDPRT` featuring contoured neck groove and dual curved routing channels
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 55%; vertical-align: top;">
+    <img src="v2_cad_assembly_full.jpg" alt="Full Assembly Assem1" width="100%">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Assem1.SLDASM` integrating `slot<1>`, `base<1>`, and `cap<2>`
+    </figcaption>
+  </figure>
+</div>
+
+#### C. Slicer Preparation (PrusaSlicer & PreForm)
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_slicer_prusaslicer_body.jpg" alt="PrusaSlicer Body Layout" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      PrusaSlicer (`body.STL`) on Prusa CORE One (0.4 mm nozzle), Generic PETG, `0.15 mm` BALANCED (modified), `20%` infill, `32.64 g`, `1h 36m`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_slicer_preform_cap.jpg" alt="PreForm Cap Layout" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      PreForm (`cap.form`) on Form 4 (`Form4-HallowedDodo`), Grey V5, `0.100 mm`, `21.76 mL` total (`15.77 mL` model, `1.35 mL` supports, `4.64 mL` raft), `~1 h 17 m`
+    </figcaption>
+  </figure>
+</div>
+
+---
+
+## 3. Final Prototype Documentation & Instructions
+
+### Fabrication & Printing Process
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <video width="350" controls preload="metadata" playsinline>
+      <source src="v2_fdm_printing.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      FDM printing process on Prusa CORE One in Generic PETG
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <video width="350" controls preload="metadata" playsinline>
+      <source src="v2_sla_printing.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      SLA printing process on Formlabs Form 4 in Grey V5 resin
+    </figcaption>
+  </figure>
+</div>
+
+### Final Printed Prototype Photos
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_prototype_unassembled.jpg" alt="Unassembled Refined Prototype Parts" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Unassembled FDM PETG and Form 4 SLA Grey V5 components after support removal, washing, and curing
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_prototype_assembled.jpg" alt="Assembled Refined Prototype" width="350">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Assembled v2 travel cable winder prototype ready for use
+    </figcaption>
+  </figure>
+</div>
+
+### Assembly Instructions
+1. **Inspect & Clean Parts:** Remove support material from the FDM PETG components and wash and post-cure the Form 4 Grey V5 SLA cap; inspect threads and slots for debris or cured resin lipping.
+2. **Seat the Internal Spool/Slot Component:** Align the slotted spool/hub (`slot.SLDPRT`) cleanly inside the body (`base.SLDPRT`) so the cable routing channels and groove remain unobstructed.
+3. **Thread & Pair Components:** Engage the threaded cap (`cap.SLDPRT`) onto the mating threads (`2.5000-12` profile) carefully to avoid cross-threading, pairing components while maintaining smooth clearance.
+
+### Use Instructions
+1. **Insert Cable:** Feed the cable into the routing slot or channel so it seats cleanly inside the winding cavity without sharp bends or kinks.
+2. **Wind Cable:** Hold the outer body steady and rotate the crank/cap assembly to wrap the cable evenly around the spool.
+3. **Dispense & Store:** Draw out the cable smoothly when needed, rewind after use, and store the slim winder in a travel bag or pouch.
+
+---
+
+## 4. Presentation Preparation & Final Video
+
+### One-Slide Presentation Summary
+- **Title:** Slim Multi-Material Travel Cable Winder (MEGR 2156/7 L3D)
+- **Problem & Motivation:** Tangled travel cords cause daily frustration and cable wear, while the initial prototype was bulky and limited to single-cable use.
+- **Peer Feedback & Refinement:** Maxwell and Atiba recommended improved crank/grip leverage, multi-cable capability, and less cramped ergonomics. The design was refined into a slimmer profile using an FDM PETG body/crank (`32.64 g`, `1h 36m`) paired with a compact Form 4 SLA Grey V5 threaded cap (`21.76 mL`, `~1 h 17 m`, `2.5000-12` threads, `120°` holes).
+- **Parametric & Manufacturing Highlights:** Controlled through SolidWorks parametric equations/variables (`"spool_diameter" = 1.50 in`), with resin shrinkage allowances and compact SLA build plate sizing (~1/4 Form 4 build plate).
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 60%; vertical-align: top;">
+    <video width="100%" controls preload="metadata" playsinline>
+      <source src="v2_final_presentation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
+      Final 1–2 minute project presentation video summarizing problem, FDM/SLA fabrication, and refined prototype
+    </figcaption>
+  </figure>
+</div>
