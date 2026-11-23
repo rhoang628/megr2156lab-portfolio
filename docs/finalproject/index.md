@@ -632,3 +632,20 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
     </figcaption>
   </figure>
 </div>
+
+---
+
+## 5. Lessons Learned & Time Log
+
+### Time Log
+
+| Time Spent | What Changed |
+| :--- | :--- |
+| **1.5 Hours** | Reviewed Week 2 peer feedback worksheets from Maxwell McFarlane and Atiba Johnson and planned v2 design refinements. |
+| **4.5 Hours** | Refined SolidWorks parametric models (`"spool_diameter" = 1.50 in`), winding/crank feature, `2.5000-12` threads, `120°` cap cutouts, base combine, and print-in-place fit tolerances. |
+| **3.0 Hours** | Sliced `body.STL` in PrusaSlicer (`34.53 g`, `1h53m` normal mode) and `cap.form` in PreForm (`21.76 mL`, `~1 h 17 m`), completed FDM/SLA printing, post-processed parts, assembled/tested the prototype, and recorded the presentation video. |
+
+### Lessons Learned
+- **Parametric Control Speeds Up Iteration:** Driving dimensions with a global variable (`"spool_diameter" = 1.50 in`) made resizing and tightening up the winder profile much cleaner and faster than adjusting individual features one by one.
+- **Print-in-Place Clearances Matter:** Combining the base geometry and tuning print-in-place tolerances upfront helps prevent fused surfaces and keeps moving/winding features free-moving after printing.
+- **Compact SLA Sizing Saves Resin and Time:** Keeping the Form 4 Grey V5 cap compact (`21.76 mL` total volume vs. `52 mL` in Part 1) stayed well within roughly one-quarter of the build plate while preserving thread engagement and grip cutouts.
