@@ -354,31 +354,95 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 ### CAD Modeling & Slicing Progression
 
-#### A. Base & Cap Modeling (`base.SLDPRT` & `cap.SLDPRT`)
+#### A. Base Modeling (`base.SLDPRT`)
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_base_initial_extrusion.jpg" alt="Base Initial Extrusion" width="350">
+    <img src="v2_cad_base_initial_extrusion.jpg" alt="Base Initial Extrusion" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Initial extrusion in `base.SLDPRT` establishing the base profile
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_base_threads.jpg" alt="Base Thread Feature" width="350">
+    <img src="v2_cad_base_sketch_profile.jpg" alt="Base Sketch Profile" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      `Thread1` in `base.SLDPRT` applying `2.5000-12` Inch Die threads (`0.025 in` offset, `0.25 in` blind)
+      Sketch and profile setup in `base.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_feature_step_3.jpg" alt="Base Feature Step 3" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Intermediate feature progression in `base.SLDPRT`
     </figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_base_completed.jpg" alt="Completed Base Model" width="350">
+    <img src="v2_cad_base_feature_step_4.jpg" alt="Base Feature Step 4" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Intermediate geometry refinement in `base.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_threads.jpg" alt="Base Thread Feature" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      `Thread1` in `base.SLDPRT` applying `2.5000-12` Inch Die threads (`0.025 in` offset, `0.25 in` blind)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_feature_step_6.jpg" alt="Base Feature Step 6" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature tree and body progression in `base.SLDPRT`
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_feature_step_7.jpg" alt="Base Feature Step 7" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Slot and collar feature progression in `base.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_feature_step_8.jpg" alt="Base Feature Step 8" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Edge and clearance detailing in `base.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_base_feature_step_9.jpg" alt="Base Feature Step 9" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Pre-completion geometry check in `base.SLDPRT`
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; width: 45%; vertical-align: top;">
+    <img src="v2_cad_base_completed.jpg" alt="Completed Base Model" width="100%">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Completed `base.SLDPRT` feature tree and geometry with slotted wall and threaded collar
     </figcaption>
   </figure>
+</div>
+
+#### B. Cap Modeling (`cap.SLDPRT`)
+<div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_cap_threads.jpg" alt="Cap Thread Feature" width="350">
+    <img src="v2_cad_cap_sketch_profile.jpg" alt="Cap Sketch Profile" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Initial sketch and profile setup in `cap.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_feature_step_12.jpg" alt="Cap Feature Step 12" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Body and collar progression in `cap.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_threads.jpg" alt="Cap Thread Feature" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       `Thread5` in `cap.SLDPRT` configured with `2.5000-12` Inch Die threads (`0.15 in` offset, `0.25 in` blind)
     </figcaption>
@@ -387,29 +451,83 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_cap_holes_120deg.jpg" alt="Cap 120 Degree Holes" width="350">
+    <img src="v2_cad_cap_feature_step_14.jpg" alt="Cap Feature Step 14" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Cutout layout and feature progression in `cap.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_cap_holes_120deg.jpg" alt="Cap 120 Degree Holes" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       `Cut-Extrude11` in `cap.SLDPRT` forming three `Ø0.75 in` cutouts spaced `120°` apart (`0.10 in` blind)
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_cap_completed.jpg" alt="Completed Cap Model" width="350">
+    <img src="v2_cad_cap_completed.jpg" alt="Completed Cap Model" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Completed `cap.SLDPRT` feature tree and solid body
     </figcaption>
   </figure>
 </div>
 
-#### B. Slot Hub & Assembly (`slot.SLDPRT` & `Assem1.SLDASM`)
+#### C. Slot Hub, Winding Mechanism & Assembly (`slot.SLDPRT` & `Assem1.SLDASM`)
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_slot_curved_cut.jpg" alt="Slot Hub Curved Cut" width="350">
+    <img src="v2_cad_slot_sketch_profile.jpg" alt="Slot Sketch Profile" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Initial sketch profile in `slot.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_feature_step_18.jpg" alt="Slot Feature Step 18" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Hub extrusion progression in `slot.SLDPRT`
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_feature_step_19.jpg" alt="Slot Feature Step 19" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Slot geometry setup in `slot.SLDPRT`
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_curved_cut.jpg" alt="Slot Hub Curved Cut" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       `Cut-Extrude1` in `slot.SLDPRT` (`0.70 in` blind) forming curved cable channels through the central hub
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="v2_cad_slot_completed.jpg" alt="Completed Slot Model" width="350">
+    <img src="v2_cad_winder_crank_step_21.jpg" alt="Winding Feature Step 21" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Modeling the winding/crank feature used to assist with cable winding
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_winder_crank_step_22.jpg" alt="Winding Feature Step 22" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Refining the winding/crank geometry for smooth turning and cable handling
+    </figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_feature_step_23.jpg" alt="Slot Feature Step 23" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Fillet and chamfer smoothing on the spool and winding geometry
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_feature_step_24.jpg" alt="Slot Feature Step 24" width="320">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Pre-completion hub and winder geometry check
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="v2_cad_slot_completed.jpg" alt="Completed Slot Model" width="320">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Completed `slot.SLDPRT` featuring contoured neck groove and dual curved routing channels
     </figcaption>
@@ -425,7 +543,7 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
   </figure>
 </div>
 
-#### C. Slicer Preparation (PrusaSlicer & PreForm)
+#### D. Slicer Preparation (PrusaSlicer & PreForm)
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <img src="v2_slicer_prusaslicer_body.jpg" alt="PrusaSlicer Body Layout" width="350">
