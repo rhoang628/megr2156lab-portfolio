@@ -615,19 +615,19 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 ## 4. Presentation Preparation & Final Video
 
-### One-Slide Presentation Summary
-- **Title:** Slim Multi-Material Travel Cable Winder (MEGR 2156/7 L3D)
-- **Problem & Motivation:** Tangled travel cords cause daily frustration and cable wear, while the initial prototype was bulky and limited to single-cable use.
-- **Peer Feedback & Refinement:** Maxwell and Atiba recommended improved crank/grip leverage, multi-cable capability, and less cramped ergonomics. The design was refined into a slimmer profile using an FDM PETG body/crank (`34.53 g`, `1h53m` normal mode) paired with a compact Form 4 SLA Grey V5 threaded cap (`21.76 mL`, `~1 h 17 m`, `2.5000-12` threads, `120°` holes).
-- **Parametric & Manufacturing Highlights:** Controlled through SolidWorks parametric equations/variables (`"spool_diameter" = 1.50 in`), with print-in-place tolerances, resin shrinkage allowances, and compact SLA build plate sizing (~1/4 Form 4 build plate).
-
 <div align="center">
-  <figure style="display: inline-block; margin: 10px; width: 60%; vertical-align: top;">
-    <video width="100%" controls preload="metadata" playsinline>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <embed src="presentation_slide.pdf" type="application/pdf" width="400" height="250">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      One-slide project overview (<a href="presentation_slide.pdf">presentation_slide.pdf</a>)
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <video width="400" controls preload="metadata" playsinline>
       <source src="v2_final_presentation.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px; text-align: center;">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Final 1–2 minute project presentation video summarizing problem, FDM/SLA fabrication, and refined prototype
     </figcaption>
   </figure>
