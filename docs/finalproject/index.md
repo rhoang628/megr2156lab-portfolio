@@ -617,9 +617,9 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <embed src="presentation_slide.pdf" type="application/pdf" width="400" height="250">
+    <img src="presentation_slide.gif" alt="One-slide project overview" width="400">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      One-slide project overview (<a href="presentation_slide.pdf">presentation_slide.pdf</a>)
+      One-slide project overview
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
