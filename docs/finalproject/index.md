@@ -622,9 +622,9 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
       One-slide project overview
     </figcaption>
   </figure>
- <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+<figure style="display: inline-block; margin: 10px; vertical-align: top;">
     <iframe
-      src="https://drive.google.com/file/d/1LhM5D0tyqwLsaMbhblgVQ4WUfY-knQ9X/view?usp=sharing"
+      src="https://drive.google.com/file/d/1LhM5D0tyqwLsaMbhblgVQ4WUfY-knQ9X/preview"
       width="400"
       height="225"
       style="border: none;"
