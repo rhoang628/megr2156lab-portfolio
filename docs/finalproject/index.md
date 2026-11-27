@@ -622,13 +622,17 @@ SolidWorks **Equations and Global Variables** were applied across the parts and 
       One-slide project overview
     </figcaption>
   </figure>
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <video width="400" controls preload="metadata" playsinline>
-      <source src="v2_final_presentation.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+ <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <iframe
+      src="https://drive.google.com/file/d/1LhM5D0tyqwLsaMbhblgVQ4WUfY-knQ9X/view?usp=sharing"
+      width="400"
+      height="225"
+      style="border: none;"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Final 1–2 minute project presentation video summarizing problem, FDM/SLA fabrication, and refined prototype
+      Final project presentation video (<a href="https://drive.google.com/file/d/1LhM5D0tyqwLsaMbhblgVQ4WUfY-knQ9X/view?usp=sharing" target="_blank" rel="noopener">Open in Google Drive</a>)
     </figcaption>
   </figure>
 </div>
